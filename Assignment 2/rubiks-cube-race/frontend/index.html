@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rubik's Cube Race</title>
+  <meta name="description" content="Benchmark four AI models on a real 3x3 Rubik's Cube.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23161b2e'/%3E%3Cg%3E%3Crect x='5' y='5' width='6' height='6' fill='%23ef4444'/%3E%3Crect x='13' y='5' width='6' height='6' fill='%23f8fafc'/%3E%3Crect x='21' y='5' width='6' height='6' fill='%2322c55e'/%3E%3Crect x='5' y='13' width='6' height='6' fill='%233b82f6'/%3E%3Crect x='13' y='13' width='6' height='6' fill='%23facc15'/%3E%3Crect x='21' y='13' width='6' height='6' fill='%23fb923c'/%3E%3Crect x='5' y='21' width='6' height='6' fill='%23f8fafc'/%3E%3Crect x='13' y='21' width='6' height='6' fill='%2322c55e'/%3E%3Crect x='21' y='21' width='6' height='6' fill='%23ef4444'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+      <div>
+        <h1>Rubik's Cube <span class="grad">Race</span></h1>
+        <p class="sub">Four AI competitors, one real 3×3 cube, every move checked.</p>
+      </div>
+    </div>
+    <div class="student" id="student" title="Set STUDENT_NAME and ROLL_NUMBER in .env">
+      <span class="student-name" id="studentName">…</span>
+      <span class="student-roll" id="studentRoll">…</span>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============================== controls ============================== -->
+    <section class="panel controls" aria-labelledby="controls-h">
+      <h2 id="controls-h">Controls</h2>
+
+      <div class="field">
+        <span class="label">Scramble category</span>
+        <div class="seg" id="categorySeg" role="radiogroup" aria-label="Scramble category">
+          <button type="button" role="radio" data-cat="final" aria-checked="true"><b>Final</b><small>exactly 3 moves (verified)</small></button>
+          <button type="button" role="radio" data-cat="warmup" aria-checked="false"><b>Warm-up</b><small>3–4 moves</small></button>
+          <button type="button" role="radio" data-cat="primary" aria-checked="false"><b>Primary</b><small>4–5 moves</small></button>
+          <button type="button" role="radio" data-cat="extension" aria-checked="false"><b>Extension</b><small>15–20 moves</small></button>
+        </div>
+      </div>
+
+      <div class="field">
+        <span class="label">Competitor mode</span>
+        <div class="seg two" id="modeSeg" role="radiogroup" aria-label="Competitor mode">
+          <button type="button" role="radio" data-mode="mock" aria-checked="true"><b>Mock</b><small>simulated, free</small></button>
+          <button type="button" role="radio" data-mode="ollama" aria-checked="false"><b>Ollama</b><small>local models, free</small></button>
+          <button type="button" role="radio" data-mode="replay" aria-checked="false"><b>Replay</b><small>cached answers, 0 requests</small></button>
+          <button type="button" role="radio" data-mode="real" aria-checked="false" id="realBtn"><b>Real</b><small id="realHint">needs OPENROUTER_API_KEY</small></button>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button class="btn" id="scrambleBtn" type="button">Generate Scramble</button>
+        <button class="btn primary shimmer" id="runBtn" type="button"><span>Run Benchmark</span></button>
+        <button class="btn ghost" id="resetBtn" type="button">Reset</button>
+      </div>
+
+      <div class="scramble-box">
+        <span class="label">Scramble</span>
+        <div class="chips" id="scrambleChips"><span class="muted">No scramble yet. Press “Generate Scramble”.</span></div>
+        <p class="muted small" id="scrambleMeta"></p>
+      </div>
+
+      <div id="banner" class="banner" role="status" aria-live="polite" hidden></div>
+
+      <div class="budget" id="budget" aria-label="OpenRouter request budget">
+        <span class="label">OpenRouter budget (persistent, read-only)</span>
+        <div id="budgetBody" class="small muted">loading…</div>
+      </div>
+    </section>
+
+    <!-- ============================== cube viewer ============================== -->
+    <section class="panel viewer" aria-labelledby="viewer-h">
+      <div class="viewer-head">
+        <h2 id="viewer-h">Cube state</h2>
+        <label class="select">View
+          <select id="viewSelect" aria-label="Which cube to display"></select>
+        </label>
+      </div>
+
+      <div class="viewer-body">
+        <div class="stage" id="stage" aria-label="3D cube. Drag to rotate.">
+          <div class="cube" id="cube3d"></div>
+          <p class="hint">drag to rotate</p>
+        </div>
+
+        <div class="side">
+          <div class="net-wrap">
+            <span class="label">Unfolded net</span>
+            <div class="net" id="mainNet" aria-label="Unfolded cube net"></div>
+          </div>
+          <div class="state-line">
+            <span id="viewTitle">Solved cube</span>
+            <span class="pill" id="viewSolved">solved</span>
+          </div>
+          <div class="replay" id="replay" hidden>
+            <button class="btn small" id="playBtn" type="button" aria-label="Play replay">▶</button>
+            <input type="range" id="frameRange" min="0" max="0" value="0" aria-label="Replay position">
+            <span class="mono small" id="frameLabel">0 / 0</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== progress + cards ============================== -->
+    <section class="panel wide" aria-labelledby="race-h">
+      <div class="race-head">
+        <h2 id="race-h">The race</h2>
+        <div class="progress-line">
+          <span class="mono small" id="runStatus">Idle</span>
+          <div class="bar"><div class="bar-fill" id="overallBar"></div></div>
+        </div>
+      </div>
+      <div class="cards" id="cards"></div>
+    </section>
+
+    <!-- ============================== history ============================== -->
+    <section class="panel history" aria-labelledby="hist-h">
+      <h2 id="hist-h">Move history</h2>
+      <div class="tabs" id="histTabs" role="tablist"></div>
+      <div class="table-scroll">
+        <table class="table dense" id="histTable">
+          <thead><tr><th>#</th><th>Proposed</th><th>Result</th><th>Latency</th><th>Note</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ============================== charts ============================== -->
+    <section class="panel charts" aria-labelledby="charts-h">
+      <h2 id="charts-h">Comparison charts</h2>
+      <p class="muted small" id="chartNote">Charts show the most recent run. Success rate uses all saved runs for the selected category and mode.</p>
+      <div class="chart-grid">
+        <figure><figcaption>Average API latency (ms)</figcaption><div class="chart-box"><canvas id="chLatency"></canvas></div></figure>
+        <figure><figcaption>Move count (valid moves applied)</figcaption><div class="chart-box"><canvas id="chMoves"></canvas></div></figure>
+        <figure><figcaption>Total solve time (s)</figcaption><div class="chart-box"><canvas id="chTime"></canvas></div></figure>
+        <figure><figcaption>Success rate, all saved runs (%)</figcaption><div class="chart-box"><canvas id="chSuccess"></canvas></div></figure>
+      </div>
+    </section>
+
+    <!-- ============================== results ============================== -->
+    <section class="panel wide" aria-labelledby="res-h">
+      <h2 id="res-h">Final results</h2>
+      <div class="table-scroll">
+        <table class="table" id="resultsTable">
+          <thead>
+            <tr><th>Competitor</th><th>Mode</th><th>Status</th><th>Moves</th><th>Avg latency</th><th>Live latency</th><th>Cache latency</th><th>Solve time</th>
+                <th>API calls</th><th>Cache hits</th><th>Cost (USD)</th><th>Invalid</th><th>API errors</th><th>Optimality gap</th></tr>
+          </thead>
+          <tbody><tr><td colspan="9" class="muted">Run a benchmark to see results.</td></tr></tbody>
+        </table>
+      </div>
+      <p class="muted small" id="optimalNote"></p>
+
+      <h3>All saved runs (aggregate)</h3>
+      <div class="table-scroll">
+        <table class="table" id="aggTable">
+          <thead>
+            <tr><th>Competitor</th><th>Mode</th><th>Runs</th><th>Solved</th><th>Success rate</th><th>Avg latency</th>
+                <th>Avg moves (solved)</th><th>Avg solve time</th><th>Avg opt. gap</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ============================== models ============================== -->
+    <section class="panel wide" aria-labelledby="models-h">
+      <h2 id="models-h">Competitors &amp; how they are reached</h2>
+      <div class="model-list" id="modelList"></div>
+      <p class="muted small" id="conv"></p>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span id="footStudent"></span>
+    <span class="muted">Mock and Ollama results are not results for the real models and are labelled as such.</span>
+  </footer>
+
+  <script src="/static/vendor/chart.umd.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>

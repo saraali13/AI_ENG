@@ -1,0 +1,35 @@
+# Secrets - NEVER commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Node (only used if you rebuild the vendored Chart.js)
+node_modules/
+
+# Local scratch
+*.log
+tmp/
+
+# Request ledger/cache: keep the data, ignore lock/temp files
+state/*.lock
+state/*.tmp
+state/*.corrupt-*

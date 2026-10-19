@@ -1,0 +1,8 @@
+# Core runtime + test dependencies (versions match the environment the tests were run in)
+fastapi==0.143.3
+uvicorn[standard]==0.54.0
+httpx==0.28.1
+python-dotenv==1.2.4
+pydantic==2.14.1
+pycuber==0.2.2
+pytest==9.1.1

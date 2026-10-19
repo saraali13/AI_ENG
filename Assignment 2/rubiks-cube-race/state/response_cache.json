@@ -1,0 +1,4045 @@
+{
+ "entries": {
+  "03f62b1829fc816f7ba89e58d34875f35153dcbcc2053fdbba73ab6839f80f86": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:44:26Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 6811.41,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:44:25.5935105Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1763306000,
+    "load_duration": 177566400,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 618,
+    "prompt_eval_count": 663,
+    "prompt_eval_duration": 3140599000,
+    "total_duration": 5236810600
+   },
+   "usage": null
+  },
+  "050a9dbd9f84e67718a18bed134ea1eb5748f42e65e94d173a0c470146dc5088": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:45:45Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 16342.07,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:45:44.8080997Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1675149000,
+    "load_duration": 25968800,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 290,
+    "prompt_eval_count": 609,
+    "prompt_eval_duration": 14024539000,
+    "total_duration": 15991509000
+   },
+   "usage": null
+  },
+  "089f032edc7f903e0e3a9140cde14616694825cb1942394b202bacffb205c7e7": {
+   "cost_usd": 4.284e-05,
+   "created_at": "2026-10-18T17:50:33Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "cloudflare/clef",
+   "original_latency_ms": 1330.83,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U2",
+      "confidence": 0.0426,
+      "probabilities": {
+       "B": 0.0354,
+       "B'": 0.0383,
+       "B2": 0.0758,
+       "D": 0.0597,
+       "D'": 0.0424,
+       "D2": 0.0732,
+       "F": 0.0371,
+       "F'": 0.0383,
+       "F2": 0.0735,
+       "L": 0.0348,
+       "L'": 0.0395,
+       "L2": 0.0462,
+       "R": 0.0447,
+       "R'": 0.0469,
+       "R2": 0.0674,
+       "U": 0.0791,
+       "U'": 0.072,
+       "U2": 0.0958
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345842-45RYH6Q9Lb5RYCJWBI8T",
+    "model": "cloudflare/clef",
+    "provider": "PrimeIntellect",
+    "usage": {
+     "cost": 4.284e-05,
+     "input_tokens": 1020,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 4.284e-05,
+    "input_tokens": 1020,
+    "output_tokens": 0
+   }
+  },
+  "0b524ba2ace69202252b1027daa7649cb46eeb59f85e82d5ee8f52b00ff825d6": {
+   "cost_usd": 8.02e-05,
+   "created_at": "2026-10-18T17:50:28Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "openai/gpt-6-luna-decisions",
+   "original_latency_ms": 1107.73,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U",
+      "confidence": 0.07,
+      "probabilities": {
+       "B": 0.07,
+       "B'": 0.06,
+       "B2": 0.06,
+       "D": 0.04,
+       "D'": 0.06,
+       "D2": 0.03,
+       "F": 0.03,
+       "F'": 0.04,
+       "F2": 0.04,
+       "L": 0.03,
+       "L'": 0.04,
+       "L2": 0.04,
+       "R": 0.07,
+       "R'": 0.11,
+       "R2": 0.05,
+       "U": 0.12,
+       "U'": 0.06,
+       "U2": 0.05
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345837-Y0ZgO0eOcZp8Ui9btjjn",
+    "model": "openai/gpt-6-luna-decisions-20261006",
+    "provider": "OpenAI",
+    "usage": {
+     "cost": 8.02e-05,
+     "input_tokens": 802,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 8.02e-05,
+    "input_tokens": 802,
+    "output_tokens": 0
+   }
+  },
+  "0ecd52409f19b81b7ea74bf91643c1114afb65a1dee9ef6730e9a86ca698f70b": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:43:15Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 4078.8,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:43:15.0742215Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1280534000,
+    "load_duration": 97900300,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 582,
+    "prompt_eval_count": 627,
+    "prompt_eval_duration": 2516342000,
+    "total_duration": 3989725100
+   },
+   "usage": null
+  },
+  "10012d9f78dd36adc820364c895e59f4f0500ef247e27f23dcc4e318d5818d44": {
+   "cost_usd": 8e-05,
+   "created_at": "2026-10-18T17:50:26Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "openai/gpt-6-luna-decisions",
+   "original_latency_ms": 955.2,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "R'",
+      "confidence": 0.1,
+      "probabilities": {
+       "B": 0.04,
+       "B'": 0.05,
+       "B2": 0.04,
+       "D": 0.03,
+       "D'": 0.04,
+       "D2": 0.02,
+       "F": 0.04,
+       "F'": 0.05,
+       "F2": 0.05,
+       "L": 0.04,
+       "L'": 0.06,
+       "L2": 0.04,
+       "R": 0.1,
+       "R'": 0.15,
+       "R2": 0.04,
+       "U": 0.11,
+       "U'": 0.06,
+       "U2": 0.04
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345835-mzJCstLb7JttR1lcrafe",
+    "model": "openai/gpt-6-luna-decisions-20261006",
+    "provider": "OpenAI",
+    "usage": {
+     "cost": 8e-05,
+     "input_tokens": 800,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 8e-05,
+    "input_tokens": 800,
+    "output_tokens": 0
+   }
+  },
+  "19bbe9c0156cf04b0ff99de5d0347da87d308e0a06df49f145661a2c259060ec": {
+   "cost_usd": 5.418e-05,
+   "created_at": "2026-10-18T17:50:37Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "typesafe/jev-1.13",
+   "original_latency_ms": 910.76,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U",
+      "confidence": 0.13,
+      "probabilities": {
+       "B": 0.02,
+       "B'": 0.01,
+       "B2": 0.02,
+       "D": 0.06,
+       "D'": 0.03,
+       "D2": 0.05,
+       "F": 0.09,
+       "F'": 0.02,
+       "F2": 0.05,
+       "L": 0.06,
+       "L'": 0.04,
+       "L2": 0.03,
+       "R": 0.08,
+       "R'": 0.02,
+       "R2": 0.04,
+       "U": 0.18,
+       "U'": 0.05,
+       "U2": 0.15
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345847-w974o5H9QeE9suspGphQ",
+    "model": "typesafe/jev-1.13-20260917",
+    "provider": "TypeSafe",
+    "usage": {
+     "cost": 5.418e-05,
+     "input_tokens": 1290,
+     "output_tokens": 156
+    }
+   },
+   "usage": {
+    "cost": 5.418e-05,
+    "input_tokens": 1290,
+    "output_tokens": 156
+   }
+  },
+  "1da0df0951a3e5a3a0c81afdc9dcbb7ba3f58e29be7bfad487d1f77ae0e4de73": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:42:52Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 15550.48,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:42:52.7791689Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1404779000,
+    "load_duration": 52791700,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 290,
+    "prompt_eval_count": 614,
+    "prompt_eval_duration": 13840920000,
+    "total_duration": 15377260800
+   },
+   "usage": null
+  },
+  "1e796c2b139368d26272f95b71f6fbdc2adab1b535f08faccca1c5f13fa2e76c": {
+   "cost_usd": 5.145e-05,
+   "created_at": "2026-10-18T17:50:19Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "typesafe/jev-1.13",
+   "original_latency_ms": 888.27,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U2",
+      "confidence": 0.08,
+      "probabilities": {
+       "B": 0.02,
+       "B'": 0.01,
+       "B2": 0.03,
+       "D": 0.04,
+       "D'": 0.03,
+       "D2": 0.04,
+       "F": 0.07,
+       "F'": 0.05,
+       "F2": 0.05,
+       "L": 0.05,
+       "L'": 0.04,
+       "L2": 0.03,
+       "R": 0.09,
+       "R'": 0.06,
+       "R2": 0.05,
+       "U": 0.11,
+       "U'": 0.1,
+       "U2": 0.13
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345828-AumGcxQtO5Kdwz3akja3",
+    "model": "typesafe/jev-1.13-20260917",
+    "provider": "TypeSafe",
+    "usage": {
+     "cost": 5.145e-05,
+     "input_tokens": 1225,
+     "output_tokens": 157
+    }
+   },
+   "usage": {
+    "cost": 5.145e-05,
+    "input_tokens": 1225,
+    "output_tokens": 157
+   }
+  },
+  "1ff785ca9e13365efa8f8f6901087fbc5b53010a9a3abf8d98e9c39ac3933d3b": {
+   "cost_usd": 7.89e-05,
+   "created_at": "2026-10-18T17:50:20Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "openai/gpt-6-luna-decisions",
+   "original_latency_ms": 849.27,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U",
+      "confidence": 0.21,
+      "probabilities": {
+       "B": 0.04,
+       "B'": 0.05,
+       "B2": 0.06,
+       "D": 0.02,
+       "D'": 0.05,
+       "D2": 0.02,
+       "F": 0.04,
+       "F'": 0.02,
+       "F2": 0.04,
+       "L": 0.02,
+       "L'": 0.03,
+       "L2": 0.03,
+       "R": 0.04,
+       "R'": 0.07,
+       "R2": 0.02,
+       "U": 0.25,
+       "U'": 0.11,
+       "U2": 0.09
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345829-8M8RKuFGUs2zymmMXvjF",
+    "model": "openai/gpt-6-luna-decisions-20261006",
+    "provider": "OpenAI",
+    "usage": {
+     "cost": 7.89e-05,
+     "input_tokens": 789,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 7.89e-05,
+    "input_tokens": 789,
+    "output_tokens": 0
+   }
+  },
+  "203bf20c29fa45c90f2d2c8917e029ac9f53312ea5db4782f00c9c1504d6f878": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:45:28Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 16310.81,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:45:28.5145767Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1702441000,
+    "load_duration": 26713900,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 290,
+    "prompt_eval_count": 609,
+    "prompt_eval_duration": 13962624000,
+    "total_duration": 15873438400
+   },
+   "usage": null
+  },
+  "20dcc3f60f4aa58fd3786477fba89bba6560ec468bdec625873de602985159c9": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:43:10Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 4578.1,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:43:10.9179153Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1480494000,
+    "load_duration": 15115500,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 581,
+    "prompt_eval_count": 626,
+    "prompt_eval_duration": 2857514000,
+    "total_duration": 4497977800
+   },
+   "usage": null
+  },
+  "23dcd208e22fc6b871b4877e7858da890916baba4bb9c7235f9560b6e672f6b1": {
+   "cost_usd": 7.9e-05,
+   "created_at": "2026-10-18T17:50:21Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "openai/gpt-6-luna-decisions",
+   "original_latency_ms": 859.05,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U",
+      "confidence": 0.14,
+      "probabilities": {
+       "B": 0.04,
+       "B'": 0.04,
+       "B2": 0.05,
+       "D": 0.04,
+       "D'": 0.05,
+       "D2": 0.02,
+       "F": 0.05,
+       "F'": 0.03,
+       "F2": 0.04,
+       "L": 0.04,
+       "L'": 0.04,
+       "L2": 0.03,
+       "R": 0.08,
+       "R'": 0.08,
+       "R2": 0.02,
+       "U": 0.19,
+       "U'": 0.09,
+       "U2": 0.07
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345830-0tCoDFjsZSy4YvjDaVug",
+    "model": "openai/gpt-6-luna-decisions-20261006",
+    "provider": "OpenAI",
+    "usage": {
+     "cost": 7.9e-05,
+     "input_tokens": 790,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 7.9e-05,
+    "input_tokens": 790,
+    "output_tokens": 0
+   }
+  },
+  "25a54495570e1fd88829de411a97b09b8a01a48b73af360fa890769150dad07f": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:45:57Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 6061.62,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:45:57.1012449Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1728937000,
+    "load_duration": 204928800,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 570,
+    "prompt_eval_count": 615,
+    "prompt_eval_duration": 2882572000,
+    "total_duration": 4991163600
+   },
+   "usage": null
+  },
+  "26650b6dfa2a7845afd6f9f7c067f028823e48176273694bf303b474bed220e8": {
+   "cost_usd": 5.2542e-05,
+   "created_at": "2026-10-18T17:50:25Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "typesafe/jev-1.13",
+   "original_latency_ms": 1081.78,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U2",
+      "confidence": 0.09,
+      "probabilities": {
+       "B": 0.01,
+       "B'": 0.01,
+       "B2": 0.02,
+       "D": 0.04,
+       "D'": 0.02,
+       "D2": 0.05,
+       "F": 0.08,
+       "F'": 0.04,
+       "F2": 0.07,
+       "L": 0.03,
+       "L'": 0.03,
+       "L2": 0.02,
+       "R": 0.13,
+       "R'": 0.06,
+       "R2": 0.06,
+       "U": 0.09,
+       "U'": 0.1,
+       "U2": 0.14
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345835-tGFnakpGDyFepXUQ6Zqv",
+    "model": "typesafe/jev-1.13-20260917",
+    "provider": "TypeSafe",
+    "usage": {
+     "cost": 5.2542e-05,
+     "input_tokens": 1251,
+     "output_tokens": 157
+    }
+   },
+   "usage": {
+    "cost": 5.2542e-05,
+    "input_tokens": 1251,
+    "output_tokens": 157
+   }
+  },
+  "26afce0eb400df817aa45385614e5404a759435d9fd460a90f682fc34aab0498": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:44:06Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 7609.01,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:44:05.8938513Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1727273000,
+    "load_duration": 276202500,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 611,
+    "prompt_eval_count": 656,
+    "prompt_eval_duration": 3182644000,
+    "total_duration": 5528451200
+   },
+   "usage": null
+  },
+  "27f3b1ee04577a1b2c2e47b42b85fd482de9b893cab30b71f30d337792b746b4": {
+   "cost_usd": 5.3928e-05,
+   "created_at": "2026-10-18T17:50:36Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "typesafe/jev-1.13",
+   "original_latency_ms": 823.2,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U'",
+      "confidence": 0.26,
+      "probabilities": {
+       "B": 0.01,
+       "B'": 0.01,
+       "B2": 0.01,
+       "D": 0.05,
+       "D'": 0.03,
+       "D2": 0.04,
+       "F": 0.06,
+       "F'": 0.03,
+       "F2": 0.04,
+       "L": 0.03,
+       "L'": 0.02,
+       "L2": 0.01,
+       "R": 0.04,
+       "R'": 0.03,
+       "R2": 0.02,
+       "U": 0.15,
+       "U'": 0.3,
+       "U2": 0.12
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345845-3wtZtiwTJNKqK7Gz1CB4",
+    "model": "typesafe/jev-1.13-20260917",
+    "provider": "TypeSafe",
+    "usage": {
+     "cost": 5.3928e-05,
+     "input_tokens": 1284,
+     "output_tokens": 157
+    }
+   },
+   "usage": {
+    "cost": 5.3928e-05,
+    "input_tokens": 1284,
+    "output_tokens": 157
+   }
+  },
+  "28c905d6b760d39c6ebac337dafcb0d7f9073be196e6f4f65acf37ee3f2cd779": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:43:52Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 5455.8,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:43:51.9324333Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1734108000,
+    "load_duration": 25131800,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 605,
+    "prompt_eval_count": 650,
+    "prompt_eval_duration": 3012760000,
+    "total_duration": 4879512800
+   },
+   "usage": null
+  },
+  "298941c4a3266c360e119ed859f133ba340f53a9e98bf43b93285829ec37e71e": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:43:06Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 4577.45,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:43:06.2587249Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1742855000,
+    "load_duration": 48957700,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 576,
+    "prompt_eval_count": 621,
+    "prompt_eval_duration": 2611495000,
+    "total_duration": 4510106400
+   },
+   "usage": null
+  },
+  "2a6424f3610e490f480b9852b489016f6384ca4e360e3a425f85a884f781ba31": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:44:33Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 7166.36,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:44:33.0454185Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1905045000,
+    "load_duration": 371494200,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 623,
+    "prompt_eval_count": 668,
+    "prompt_eval_duration": 3570448000,
+    "total_duration": 6067103600
+   },
+   "usage": null
+  },
+  "2ab8971782f7873f94971a2141dc947623ebd35ebc93194a2d7e93d2f5219967": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:46:26Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 6435.69,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:46:26.5864648Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1631568000,
+    "load_duration": 15915900,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 587,
+    "prompt_eval_count": 632,
+    "prompt_eval_duration": 3903366000,
+    "total_duration": 5695163900
+   },
+   "usage": null
+  },
+  "2b3a5c45e10cc32efad0d4168fa1105b5ca6853275880d478659218fb93e6ad2": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:46:32Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 5076.13,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:46:31.8728935Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1549281000,
+    "load_duration": 22896800,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 588,
+    "prompt_eval_count": 633,
+    "prompt_eval_duration": 2966615000,
+    "total_duration": 4633052600
+   },
+   "usage": null
+  },
+  "2b70bad35526c9b557d8a877d1cc0e6ca12fb2ebca60677776205675b651554e": {
+   "cost_usd": 5.0568e-05,
+   "created_at": "2026-10-18T17:50:13Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "typesafe/jev-1.13",
+   "original_latency_ms": 2030.74,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U2",
+      "confidence": 0.05,
+      "probabilities": {
+       "B": 0.03,
+       "B'": 0.02,
+       "B2": 0.03,
+       "D": 0.03,
+       "D'": 0.03,
+       "D2": 0.05,
+       "F": 0.05,
+       "F'": 0.05,
+       "F2": 0.07,
+       "L": 0.05,
+       "L'": 0.05,
+       "L2": 0.04,
+       "R": 0.08,
+       "R'": 0.07,
+       "R2": 0.08,
+       "U": 0.1,
+       "U'": 0.07,
+       "U2": 0.1
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345822-ol2SxZLxX8tpJeCU0JEk",
+    "model": "typesafe/jev-1.13-20260917",
+    "provider": "TypeSafe",
+    "usage": {
+     "cost": 5.0568e-05,
+     "input_tokens": 1204,
+     "output_tokens": 157
+    }
+   },
+   "usage": {
+    "cost": 5.0568e-05,
+    "input_tokens": 1204,
+    "output_tokens": 157
+   }
+  },
+  "2e35e509d533fb3b2bfded265e950e145d1912157289928954b8d639a665b614": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:47:15Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 5038.42,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:47:14.8356488Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1632736000,
+    "load_duration": 19971800,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 612,
+    "prompt_eval_count": 657,
+    "prompt_eval_duration": 2749895000,
+    "total_duration": 4522080800
+   },
+   "usage": null
+  },
+  "3016b87548e8d175d99e0f2a0b4a6521f541610808558f49e9ac94291f607769": {
+   "cost_usd": 8.13e-05,
+   "created_at": "2026-10-18T17:50:33Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "openai/gpt-6-luna-decisions",
+   "original_latency_ms": 702.95,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "R'",
+      "confidence": 0.1,
+      "probabilities": {
+       "B": 0.05,
+       "B'": 0.08,
+       "B2": 0.07,
+       "D": 0.03,
+       "D'": 0.04,
+       "D2": 0.02,
+       "F": 0.04,
+       "F'": 0.04,
+       "F2": 0.03,
+       "L": 0.05,
+       "L'": 0.05,
+       "L2": 0.04,
+       "R": 0.07,
+       "R'": 0.15,
+       "R2": 0.04,
+       "U": 0.11,
+       "U'": 0.05,
+       "U2": 0.04
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345843-AtkY8FvLygMSq9Z5OYF3",
+    "model": "openai/gpt-6-luna-decisions-20261006",
+    "provider": "OpenAI",
+    "usage": {
+     "cost": 8.13e-05,
+     "input_tokens": 813,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 8.13e-05,
+    "input_tokens": 813,
+    "output_tokens": 0
+   }
+  },
+  "30204c336d5e9053d45d1b69e9c61602801105f3653919f8435955a8a480beb9": {
+   "cost_usd": 4.2126e-05,
+   "created_at": "2026-10-18T17:50:23Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "cloudflare/clef",
+   "original_latency_ms": 1198.75,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U2",
+      "confidence": 0.0437,
+      "probabilities": {
+       "B": 0.0376,
+       "B'": 0.0359,
+       "B2": 0.0547,
+       "D": 0.0618,
+       "D'": 0.0454,
+       "D2": 0.0681,
+       "F": 0.04,
+       "F'": 0.042,
+       "F2": 0.0606,
+       "L": 0.0379,
+       "L'": 0.044,
+       "L2": 0.0416,
+       "R": 0.0526,
+       "R'": 0.0514,
+       "R2": 0.0556,
+       "U": 0.0942,
+       "U'": 0.0796,
+       "U2": 0.0968
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345833-uwpStF0a7HV8A8nCFqH4",
+    "model": "cloudflare/clef",
+    "provider": "PrimeIntellect",
+    "usage": {
+     "cost": 4.2126e-05,
+     "input_tokens": 1003,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 4.2126e-05,
+    "input_tokens": 1003,
+    "output_tokens": 0
+   }
+  },
+  "36db728ad944ed0f615ab44d1c46ba8719fd162c9bf96cb9952a8e6f1c991e7a": {
+   "cost_usd": 5.187e-05,
+   "created_at": "2026-10-18T17:50:22Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "typesafe/jev-1.13",
+   "original_latency_ms": 1770.34,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U2",
+      "confidence": 0.06,
+      "probabilities": {
+       "B": 0.02,
+       "B'": 0.01,
+       "B2": 0.02,
+       "D": 0.04,
+       "D'": 0.03,
+       "D2": 0.05,
+       "F": 0.07,
+       "F'": 0.04,
+       "F2": 0.05,
+       "L": 0.06,
+       "L'": 0.05,
+       "L2": 0.04,
+       "R": 0.1,
+       "R'": 0.07,
+       "R2": 0.06,
+       "U": 0.09,
+       "U'": 0.09,
+       "U2": 0.11
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345831-H2LceXFYY4p3HNND0tDu",
+    "model": "typesafe/jev-1.13-20260917",
+    "provider": "TypeSafe",
+    "usage": {
+     "cost": 5.187e-05,
+     "input_tokens": 1235,
+     "output_tokens": 157
+    }
+   },
+   "usage": {
+    "cost": 5.187e-05,
+    "input_tokens": 1235,
+    "output_tokens": 157
+   }
+  },
+  "3fbeadad4f5d9d7e61c9253d174de120ca1ec57e510f298a5806f80c9ccb525f": {
+   "cost_usd": 7.8e-05,
+   "created_at": "2026-10-18T17:50:13Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "openai/gpt-6-luna-decisions",
+   "original_latency_ms": 362.78,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "F'",
+      "confidence": 0.16,
+      "probabilities": {
+       "B": 0.02,
+       "B'": 0.05,
+       "B2": 0.05,
+       "D": 0.02,
+       "D'": 0.02,
+       "D2": 0.01,
+       "F": 0.14,
+       "F'": 0.21,
+       "F2": 0.06,
+       "L": 0.02,
+       "L'": 0.04,
+       "L2": 0.02,
+       "R": 0.03,
+       "R'": 0.08,
+       "R2": 0.01,
+       "U": 0.09,
+       "U'": 0.1,
+       "U2": 0.03
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345823-139wTW1ul77QqxjGCtGl",
+    "model": "openai/gpt-6-luna-decisions-20261006",
+    "provider": "OpenAI",
+    "usage": {
+     "cost": 7.8e-05,
+     "input_tokens": 780,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 7.8e-05,
+    "input_tokens": 780,
+    "output_tokens": 0
+   }
+  },
+  "3fe9e4bfed0df1d013eeddb4b596a6342a9b07066fd783478095aa8b2010ea79": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:43:20Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 5055.01,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:43:20.1960972Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1796250000,
+    "load_duration": 13088000,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 587,
+    "prompt_eval_count": 632,
+    "prompt_eval_duration": 3081493000,
+    "total_duration": 5000586600
+   },
+   "usage": null
+  },
+  "47c05928c4f2d8445e3638237035d1b951f57800e65167383ae95d1eb77889d0": {
+   "cost_usd": 4.3596e-05,
+   "created_at": "2026-10-18T17:50:40Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "cloudflare/clef",
+   "original_latency_ms": 744.49,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "F2",
+      "confidence": 0.1334,
+      "probabilities": {
+       "B": 0.0225,
+       "B'": 0.0293,
+       "B2": 0.0678,
+       "D": 0.0524,
+       "D'": 0.0342,
+       "D2": 0.0858,
+       "F": 0.0668,
+       "F'": 0.0676,
+       "F2": 0.1815,
+       "L": 0.0267,
+       "L'": 0.0279,
+       "L2": 0.0382,
+       "R": 0.041,
+       "R'": 0.0376,
+       "R2": 0.0615,
+       "U": 0.0514,
+       "U'": 0.0472,
+       "U2": 0.0606
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345850-34qNtzgMxSTuxv9fwELZ",
+    "model": "cloudflare/clef",
+    "provider": "PrimeIntellect",
+    "usage": {
+     "cost": 4.3596e-05,
+     "input_tokens": 1038,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 4.3596e-05,
+    "input_tokens": 1038,
+    "output_tokens": 0
+   }
+  },
+  "48f7bfd6ec5827a4c84a0332debe9c815662a7cb4be98cb479b0444e207573ef": {
+   "cost_usd": 7.98e-05,
+   "created_at": "2026-10-18T17:50:25Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "openai/gpt-6-luna-decisions",
+   "original_latency_ms": 1021.31,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "R'",
+      "confidence": 0.05,
+      "probabilities": {
+       "B": 0.04,
+       "B'": 0.07,
+       "B2": 0.06,
+       "D": 0.04,
+       "D'": 0.05,
+       "D2": 0.02,
+       "F": 0.07,
+       "F'": 0.05,
+       "F2": 0.06,
+       "L": 0.04,
+       "L'": 0.05,
+       "L2": 0.04,
+       "R": 0.07,
+       "R'": 0.1,
+       "R2": 0.04,
+       "U": 0.09,
+       "U'": 0.06,
+       "U2": 0.05
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345834-XInnVplMkPoyO6XC0KVA",
+    "model": "openai/gpt-6-luna-decisions-20261006",
+    "provider": "OpenAI",
+    "usage": {
+     "cost": 7.98e-05,
+     "input_tokens": 798,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 7.98e-05,
+    "input_tokens": 798,
+    "output_tokens": 0
+   }
+  },
+  "49e1a01010571f7b9480792ef660a9e6d07f2847e0a311512a64aac21e39eaf3": {
+   "cost_usd": 5.1072e-05,
+   "created_at": "2026-10-18T17:50:16Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "typesafe/jev-1.13",
+   "original_latency_ms": 581.55,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U",
+      "confidence": 0.07,
+      "probabilities": {
+       "B": 0.02,
+       "B'": 0.02,
+       "B2": 0.03,
+       "D": 0.04,
+       "D'": 0.03,
+       "D2": 0.05,
+       "F": 0.07,
+       "F'": 0.05,
+       "F2": 0.04,
+       "L": 0.06,
+       "L'": 0.05,
+       "L2": 0.04,
+       "R": 0.09,
+       "R'": 0.07,
+       "R2": 0.05,
+       "U": 0.12,
+       "U'": 0.06,
+       "U2": 0.11
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345826-FAfDL6UdDAI7hLjJWLLE",
+    "model": "typesafe/jev-1.13-20260917",
+    "provider": "TypeSafe",
+    "usage": {
+     "cost": 5.1072e-05,
+     "input_tokens": 1216,
+     "output_tokens": 156
+    }
+   },
+   "usage": {
+    "cost": 5.1072e-05,
+    "input_tokens": 1216,
+    "output_tokens": 156
+   }
+  },
+  "4a506e92b0db6ed354d91e82148888034838576d33fd40345234352c0752f3cb": {
+   "cost_usd": 7.82e-05,
+   "created_at": "2026-10-18T17:50:16Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "openai/gpt-6-luna-decisions",
+   "original_latency_ms": 568.12,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U",
+      "confidence": 0.15,
+      "probabilities": {
+       "B": 0.04,
+       "B'": 0.05,
+       "B2": 0.06,
+       "D": 0.03,
+       "D'": 0.04,
+       "D2": 0.02,
+       "F": 0.05,
+       "F'": 0.03,
+       "F2": 0.06,
+       "L": 0.03,
+       "L'": 0.05,
+       "L2": 0.03,
+       "R": 0.06,
+       "R'": 0.08,
+       "R2": 0.02,
+       "U": 0.2,
+       "U'": 0.09,
+       "U2": 0.06
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345825-tQdVqDnEL3saKrr5Qwai",
+    "model": "openai/gpt-6-luna-decisions-20261006",
+    "provider": "OpenAI",
+    "usage": {
+     "cost": 7.82e-05,
+     "input_tokens": 782,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 7.82e-05,
+    "input_tokens": 782,
+    "output_tokens": 0
+   }
+  },
+  "4a77823f72c4f7f9fc7d006b59f32d3657682338d8d1e23316285c6493fedf21": {
+   "cost_usd": 5.2836e-05,
+   "created_at": "2026-10-18T17:50:31Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "typesafe/jev-1.13",
+   "original_latency_ms": 1250.13,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "R'",
+      "confidence": 0.25,
+      "probabilities": {
+       "B": 0.02,
+       "B'": 0.01,
+       "B2": 0.02,
+       "D": 0.05,
+       "D'": 0.03,
+       "D2": 0.05,
+       "F": 0.07,
+       "F'": 0.05,
+       "F2": 0.04,
+       "L": 0.03,
+       "L'": 0.03,
+       "L2": 0.02,
+       "R": 0.07,
+       "R'": 0.29,
+       "R2": 0.06,
+       "U": 0.06,
+       "U'": 0.05,
+       "U2": 0.05
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345840-HCjUAsO5CGEsod0HRiwn",
+    "model": "typesafe/jev-1.13-20260917",
+    "provider": "TypeSafe",
+    "usage": {
+     "cost": 5.2836e-05,
+     "input_tokens": 1258,
+     "output_tokens": 157
+    }
+   },
+   "usage": {
+    "cost": 5.2836e-05,
+    "input_tokens": 1258,
+    "output_tokens": 157
+   }
+  },
+  "4e6c86993ffe7bd52fde36dfa7e24c8a11586aca7d423aef1d8f8d4249c1a0e8": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:46:09Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 5401.52,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:46:08.8127947Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1634216000,
+    "load_duration": 23648100,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 576,
+    "prompt_eval_count": 621,
+    "prompt_eval_duration": 2898910000,
+    "total_duration": 4674193800
+   },
+   "usage": null
+  },
+  "54138ff4b59e73b3478294a2bf6c745a1032399dc5de8b0e650b04e498e7b983": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:44:19Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 6690.79,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:44:18.2848208Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1945701000,
+    "load_duration": 123964500,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 617,
+    "prompt_eval_count": 662,
+    "prompt_eval_duration": 3041377000,
+    "total_duration": 5302422400
+   },
+   "usage": null
+  },
+  "55a0deec2b1f0f760862be2280dde6fb6438168cbb2fcaf52b83b442931195a3": {
+   "cost_usd": 0.0002376,
+   "created_at": "2026-10-18T17:50:14Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "cloudflare/clef",
+   "original_latency_ms": 2899.14,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U2",
+      "confidence": 0.0045,
+      "probabilities": {
+       "B": 0.0339,
+       "B'": 0.0449,
+       "B2": 0.0471,
+       "D": 0.0623,
+       "D'": 0.0509,
+       "D2": 0.0559,
+       "F": 0.0396,
+       "F'": 0.0425,
+       "F2": 0.0463,
+       "L": 0.0409,
+       "L'": 0.0509,
+       "L2": 0.0572,
+       "R": 0.0533,
+       "R'": 0.0568,
+       "R2": 0.0633,
+       "U": 0.082,
+       "U'": 0.0782,
+       "U2": 0.094
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345822-Y0xp4uDSNZM22KOu4cTs",
+    "model": "cloudflare/clef",
+    "provider": "DeepInfra",
+    "usage": {
+     "cost": 0.0002376,
+     "input_tokens": 990,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 0.0002376,
+    "input_tokens": 990,
+    "output_tokens": 0
+   }
+  },
+  "55cbad4c9368e1b32f36a75af69b60e3bd0fbc32e8f33f48bf7e0c63f597467e": {
+   "cost_usd": 7.81e-05,
+   "created_at": "2026-10-18T17:50:15Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "openai/gpt-6-luna-decisions",
+   "original_latency_ms": 1530.74,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U",
+      "confidence": 0.2,
+      "probabilities": {
+       "B": 0.04,
+       "B'": 0.05,
+       "B2": 0.04,
+       "D": 0.01,
+       "D'": 0.03,
+       "D2": 0.02,
+       "F": 0.19,
+       "F'": 0.05,
+       "F2": 0.07,
+       "L": 0.02,
+       "L'": 0.03,
+       "L2": 0.02,
+       "R": 0.04,
+       "R'": 0.05,
+       "R2": 0.02,
+       "U": 0.24,
+       "U'": 0.03,
+       "U2": 0.05
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345824-fAyewLi0NnLQJkQMcZC3",
+    "model": "openai/gpt-6-luna-decisions-20261006",
+    "provider": "OpenAI",
+    "usage": {
+     "cost": 7.81e-05,
+     "input_tokens": 781,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 7.81e-05,
+    "input_tokens": 781,
+    "output_tokens": 0
+   }
+  },
+  "573eaf90d1510f1c30000ce242d36b622b7e3da8d52499011c4d493a133e4959": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:46:36Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 4550.53,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:46:36.7912384Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1548852000,
+    "load_duration": 62833100,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 593,
+    "prompt_eval_count": 638,
+    "prompt_eval_duration": 2671825000,
+    "total_duration": 4377927800
+   },
+   "usage": null
+  },
+  "59cd8852692062c8c569be611f65bfde1850966a83fd400cc7c889468d7aabd0": {
+   "cost_usd": 7.76e-05,
+   "created_at": "2026-10-18T17:50:13Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "openai/gpt-6-luna-decisions",
+   "original_latency_ms": 2181.08,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "F",
+      "confidence": 0.05,
+      "probabilities": {
+       "B": 0.05,
+       "B'": 0.07,
+       "B2": 0.06,
+       "D": 0.02,
+       "D'": 0.04,
+       "D2": 0.02,
+       "F": 0.1,
+       "F'": 0.07,
+       "F2": 0.07,
+       "L": 0.05,
+       "L'": 0.06,
+       "L2": 0.05,
+       "R": 0.06,
+       "R'": 0.08,
+       "R2": 0.04,
+       "U": 0.09,
+       "U'": 0.03,
+       "U2": 0.04
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345822-7IauZ9lZbi8xLGtTOzRR",
+    "model": "openai/gpt-6-luna-decisions-20261006",
+    "provider": "OpenAI",
+    "usage": {
+     "cost": 7.76e-05,
+     "input_tokens": 776,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 7.76e-05,
+    "input_tokens": 776,
+    "output_tokens": 0
+   }
+  },
+  "610a599b62bf6cb0892269a9a9b184009827b8716a65351d6dcc729f34fe091d": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:47:03Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 6248.58,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:47:03.3388766Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1735387000,
+    "load_duration": 25642700,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 606,
+    "prompt_eval_count": 651,
+    "prompt_eval_duration": 3627825000,
+    "total_duration": 5499355700
+   },
+   "usage": null
+  },
+  "6165a70b11c243a1e868cbfe6de89247b1475722956aadba30e093d9eaf9e04c": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:43:36Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 5113.99,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:43:36.6819515Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1733580000,
+    "load_duration": 22773900,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 594,
+    "prompt_eval_count": 639,
+    "prompt_eval_duration": 3077790000,
+    "total_duration": 4956427200
+   },
+   "usage": null
+  },
+  "65c513cf8c9e7a00a27ac525de19a1a31b129564ee2f2eabfc4a6611cbf4c439": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:42:57Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 4441.77,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:42:57.3087363Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1544257000,
+    "load_duration": 20238400,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 570,
+    "prompt_eval_count": 615,
+    "prompt_eval_duration": 2719617000,
+    "total_duration": 4372700000
+   },
+   "usage": null
+  },
+  "6cf350e1fa90b2899a2560c0aa1d8c3db3bdb04367ead741cf104cdf27f914a0": {
+   "cost_usd": 5.2122e-05,
+   "created_at": "2026-10-18T17:50:23Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "typesafe/jev-1.13",
+   "original_latency_ms": 616.52,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U2",
+      "confidence": 0.1,
+      "probabilities": {
+       "B": 0.01,
+       "B'": 0.01,
+       "B2": 0.02,
+       "D": 0.04,
+       "D'": 0.02,
+       "D2": 0.06,
+       "F": 0.07,
+       "F'": 0.04,
+       "F2": 0.06,
+       "L": 0.04,
+       "L'": 0.03,
+       "L2": 0.03,
+       "R": 0.1,
+       "R'": 0.06,
+       "R2": 0.07,
+       "U": 0.1,
+       "U'": 0.09,
+       "U2": 0.15
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345833-tXgEBq5A7bIuGrjJ43xr",
+    "model": "typesafe/jev-1.13-20260917",
+    "provider": "TypeSafe",
+    "usage": {
+     "cost": 5.2122e-05,
+     "input_tokens": 1241,
+     "output_tokens": 157
+    }
+   },
+   "usage": {
+    "cost": 5.2122e-05,
+    "input_tokens": 1241,
+    "output_tokens": 157
+   }
+  },
+  "6cf9fa10e48c5bb93f76a6339b121899dd09a0c8d3544a40d7b9f52e17c0552a": {
+   "cost_usd": 8.06e-05,
+   "created_at": "2026-10-18T17:50:31Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "openai/gpt-6-luna-decisions",
+   "original_latency_ms": 1048.35,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "R'",
+      "confidence": 0.22,
+      "probabilities": {
+       "B": 0.03,
+       "B'": 0.04,
+       "B2": 0.05,
+       "D": 0.02,
+       "D'": 0.03,
+       "D2": 0.02,
+       "F": 0.03,
+       "F'": 0.03,
+       "F2": 0.03,
+       "L": 0.03,
+       "L'": 0.04,
+       "L2": 0.04,
+       "R": 0.05,
+       "R'": 0.26,
+       "R2": 0.04,
+       "U": 0.11,
+       "U'": 0.1,
+       "U2": 0.05
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345840-0maiL2oFr036dzLezWPp",
+    "model": "openai/gpt-6-luna-decisions-20261006",
+    "provider": "OpenAI",
+    "usage": {
+     "cost": 8.06e-05,
+     "input_tokens": 806,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 8.06e-05,
+    "input_tokens": 806,
+    "output_tokens": 0
+   }
+  },
+  "6e155e7f63bdcb792b5f62bbcb63e21df9e963f997544be878394059411952cf": {
+   "cost_usd": 4.3092e-05,
+   "created_at": "2026-10-18T17:50:36Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "cloudflare/clef",
+   "original_latency_ms": 1826.32,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "F2",
+      "confidence": 0.1592,
+      "probabilities": {
+       "B": 0.0233,
+       "B'": 0.0288,
+       "B2": 0.0579,
+       "D": 0.0467,
+       "D'": 0.0313,
+       "D2": 0.0645,
+       "F": 0.0775,
+       "F'": 0.0794,
+       "F2": 0.2059,
+       "L": 0.0262,
+       "L'": 0.0283,
+       "L2": 0.0288,
+       "R": 0.0449,
+       "R'": 0.0425,
+       "R2": 0.0554,
+       "U": 0.0525,
+       "U'": 0.0517,
+       "U2": 0.0546
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345845-apUYRAyRktUOzPLZYAUV",
+    "model": "cloudflare/clef",
+    "provider": "PrimeIntellect",
+    "usage": {
+     "cost": 4.3092e-05,
+     "input_tokens": 1026,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 4.3092e-05,
+    "input_tokens": 1026,
+    "output_tokens": 0
+   }
+  },
+  "6e1ce768489b1818d8bb1f6455583d437234a34058589e71eb6275eb27c96c94": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:47:10Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 5976.02,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:47:09.3138738Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1630500000,
+    "load_duration": 107659700,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 611,
+    "prompt_eval_count": 656,
+    "prompt_eval_duration": 3057828000,
+    "total_duration": 4962153500
+   },
+   "usage": null
+  },
+  "70326ec94f03c23ff0b1b401ef89cde064db2d9800de5e934647198fa619cc63": {
+   "cost_usd": 8.04e-05,
+   "created_at": "2026-10-18T17:50:29Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "openai/gpt-6-luna-decisions",
+   "original_latency_ms": 1178.11,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "R'",
+      "confidence": 0.12,
+      "probabilities": {
+       "B": 0.05,
+       "B'": 0.04,
+       "B2": 0.04,
+       "D": 0.03,
+       "D'": 0.04,
+       "D2": 0.02,
+       "F": 0.03,
+       "F'": 0.03,
+       "F2": 0.04,
+       "L": 0.03,
+       "L'": 0.03,
+       "L2": 0.03,
+       "R": 0.11,
+       "R'": 0.17,
+       "R2": 0.05,
+       "U": 0.11,
+       "U'": 0.1,
+       "U2": 0.05
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345839-GBH6CRIett7fcOJCzT0s",
+    "model": "openai/gpt-6-luna-decisions-20261006",
+    "provider": "OpenAI",
+    "usage": {
+     "cost": 8.04e-05,
+     "input_tokens": 804,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 8.04e-05,
+    "input_tokens": 804,
+    "output_tokens": 0
+   }
+  },
+  "71e73696aad82256800b162f500a0d4477ee122eced63debcbc6b4686016fec5": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:43:31Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 5149.64,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:43:31.4914026Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1724750000,
+    "load_duration": 42070300,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 593,
+    "prompt_eval_count": 638,
+    "prompt_eval_duration": 2956009000,
+    "total_duration": 4893713200
+   },
+   "usage": null
+  },
+  "7f9a3480ce2e838d808f9baadcecf61d4d40befc3f9f24338c473a2d77e755ee": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:46:46Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 4897.5,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:46:46.5130099Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1518967000,
+    "load_duration": 41968200,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 599,
+    "prompt_eval_count": 644,
+    "prompt_eval_duration": 2833678000,
+    "total_duration": 4500008400
+   },
+   "usage": null
+  },
+  "803fba8b773ab35c1f9342fc3f27dc15fb01d94535be589da73759f672d89cad": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:46:20Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 5453.02,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:46:19.8932095Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1623421000,
+    "load_duration": 74965800,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 582,
+    "prompt_eval_count": 627,
+    "prompt_eval_duration": 2975242000,
+    "total_duration": 4795128000
+   },
+   "usage": null
+  },
+  "82d4722ad384bc3303f5ef46d6844ea2b245bc9b1cd23d7c20776efd5c5b0f0a": {
+   "cost_usd": 5.3424e-05,
+   "created_at": "2026-10-18T17:50:32Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "typesafe/jev-1.13",
+   "original_latency_ms": 744.96,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "F",
+      "confidence": 0.1,
+      "probabilities": {
+       "B": 0.02,
+       "B'": 0.01,
+       "B2": 0.02,
+       "D": 0.05,
+       "D'": 0.03,
+       "D2": 0.05,
+       "F": 0.15000000000000002,
+       "F'": 0.06,
+       "F2": 0.07,
+       "L": 0.06,
+       "L'": 0.05,
+       "L2": 0.03,
+       "R": 0.08,
+       "R'": 0.03,
+       "R2": 0.05,
+       "U": 0.11,
+       "U'": 0.04,
+       "U2": 0.09
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345842-QHLgPCqNsKSAu9jK8Jvt",
+    "model": "typesafe/jev-1.13-20260917",
+    "provider": "TypeSafe",
+    "usage": {
+     "cost": 5.3424e-05,
+     "input_tokens": 1272,
+     "output_tokens": 156
+    }
+   },
+   "usage": {
+    "cost": 5.3424e-05,
+    "input_tokens": 1272,
+    "output_tokens": 156
+   }
+  },
+  "86bdfc285a15888178b5eabb6f27e57951819e6234020e1b2638e262adbcd35c": {
+   "cost_usd": 4.2798e-05,
+   "created_at": "2026-10-18T17:50:31Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "cloudflare/clef",
+   "original_latency_ms": 1239.86,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U2",
+      "confidence": 0.0486,
+      "probabilities": {
+       "B": 0.0347,
+       "B'": 0.0408,
+       "B2": 0.072,
+       "D": 0.0512,
+       "D'": 0.0399,
+       "D2": 0.064,
+       "F": 0.0463,
+       "F'": 0.0456,
+       "F2": 0.0835,
+       "L": 0.0352,
+       "L'": 0.0418,
+       "L2": 0.0347,
+       "R": 0.0485,
+       "R'": 0.0563,
+       "R2": 0.0537,
+       "U": 0.0769,
+       "U'": 0.0737,
+       "U2": 0.1015
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345840-T7r8Rpli1b55I1EeeZzH",
+    "model": "cloudflare/clef",
+    "provider": "PrimeIntellect",
+    "usage": {
+     "cost": 4.2798e-05,
+     "input_tokens": 1019,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 4.2798e-05,
+    "input_tokens": 1019,
+    "output_tokens": 0
+   }
+  },
+  "876d333b60c688bb363f6a5241edb56cfd6c7e77b50eb6e17d23cdcfb2dffc2b": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:46:57Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 5582.06,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:46:57.2461145Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1689645000,
+    "load_duration": 83546700,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 605,
+    "prompt_eval_count": 650,
+    "prompt_eval_duration": 3188906000,
+    "total_duration": 5067275200
+   },
+   "usage": null
+  },
+  "88eac515f3714f8c2f43f2f2c4fcf22cbc7ac38008e90623b52c98c0588a8287": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:46:51Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 4875.95,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:46:51.5059032Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1535018000,
+    "load_duration": 15643600,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 600,
+    "prompt_eval_count": 645,
+    "prompt_eval_duration": 2813631000,
+    "total_duration": 4471918400
+   },
+   "usage": null
+  },
+  "898e6ebd9404c0aa387e0e62425c301c268a0d7bde25e4ce8b479dc6503748f6": {
+   "cost_usd": 8.16e-05,
+   "created_at": "2026-10-18T17:50:35Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "openai/gpt-6-luna-decisions",
+   "original_latency_ms": 1750.61,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U",
+      "confidence": 0.15,
+      "probabilities": {
+       "B": 0.03,
+       "B'": 0.05,
+       "B2": 0.04,
+       "D": 0.03,
+       "D'": 0.03,
+       "D2": 0.02,
+       "F": 0.02,
+       "F'": 0.02,
+       "F2": 0.02,
+       "L": 0.03,
+       "L'": 0.04,
+       "L2": 0.03,
+       "R": 0.06,
+       "R'": 0.17,
+       "R2": 0.02,
+       "U": 0.2,
+       "U'": 0.14,
+       "U2": 0.05
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345844-nWjdTDW32S8uvwtaOthQ",
+    "model": "openai/gpt-6-luna-decisions-20261006",
+    "provider": "OpenAI",
+    "usage": {
+     "cost": 8.16e-05,
+     "input_tokens": 816,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 8.16e-05,
+    "input_tokens": 816,
+    "output_tokens": 0
+   }
+  },
+  "8ecad222d1a43d0e107632d0aa3dea821efd77149161744ba22adc57d23f6ab5": {
+   "cost_usd": 4.179e-05,
+   "created_at": "2026-10-18T17:50:19Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "cloudflare/clef",
+   "original_latency_ms": 939.9,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U",
+      "confidence": 0.0184,
+      "probabilities": {
+       "B": 0.0507,
+       "B'": 0.0611,
+       "B2": 0.0557,
+       "D": 0.072,
+       "D'": 0.0515,
+       "D2": 0.0523,
+       "F": 0.0447,
+       "F'": 0.0447,
+       "F2": 0.0359,
+       "L": 0.0531,
+       "L'": 0.0592,
+       "L2": 0.0484,
+       "R": 0.0704,
+       "R'": 0.0661,
+       "R2": 0.0487,
+       "U": 0.0729,
+       "U'": 0.0658,
+       "U2": 0.0469
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345828-o5PcgCX5hjtqSLGyJFrA",
+    "model": "cloudflare/clef",
+    "provider": "PrimeIntellect",
+    "usage": {
+     "cost": 4.179e-05,
+     "input_tokens": 995,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 4.179e-05,
+    "input_tokens": 995,
+    "output_tokens": 0
+   }
+  },
+  "92aca038908d37d4fdefbed3a8b485ad9ed391e8e5842e4ee8ab9155d9c57116": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:47:26Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 5345.44,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:47:25.7594282Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1680070000,
+    "load_duration": 23428000,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 618,
+    "prompt_eval_count": 663,
+    "prompt_eval_duration": 2860876000,
+    "total_duration": 4652771400
+   },
+   "usage": null
+  },
+  "93f30a3a2fd685883a6fa2b0f7aa52905baa6d1ddfa71ca2a6beff2108ae3040": {
+   "cost_usd": 4.263e-05,
+   "created_at": "2026-10-18T17:50:30Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "cloudflare/clef",
+   "original_latency_ms": 1195.98,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U2",
+      "confidence": 0.0644,
+      "probabilities": {
+       "B": 0.0304,
+       "B'": 0.0355,
+       "B2": 0.0655,
+       "D": 0.0554,
+       "D'": 0.0422,
+       "D2": 0.074,
+       "F": 0.0333,
+       "F'": 0.0372,
+       "F2": 0.0666,
+       "L": 0.0333,
+       "L'": 0.0384,
+       "L2": 0.0435,
+       "R": 0.0481,
+       "R'": 0.0505,
+       "R2": 0.064,
+       "U": 0.0879,
+       "U'": 0.0778,
+       "U2": 0.1164
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345839-TQ5ijWrQw1lL7poy6S71",
+    "model": "cloudflare/clef",
+    "provider": "PrimeIntellect",
+    "usage": {
+     "cost": 4.263e-05,
+     "input_tokens": 1015,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 4.263e-05,
+    "input_tokens": 1015,
+    "output_tokens": 0
+   }
+  },
+  "95b6b0f7298e928f4e1929e2ecb6ceac0b94efd0e84ac148b25b76a3121b1a49": {
+   "cost_usd": 7.84e-05,
+   "created_at": "2026-10-18T17:50:17Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "openai/gpt-6-luna-decisions",
+   "original_latency_ms": 885.13,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U",
+      "confidence": 0.09,
+      "probabilities": {
+       "B": 0.05,
+       "B'": 0.05,
+       "B2": 0.04,
+       "D": 0.03,
+       "D'": 0.04,
+       "D2": 0.01,
+       "F": 0.09,
+       "F'": 0.05,
+       "F2": 0.05,
+       "L": 0.03,
+       "L'": 0.04,
+       "L2": 0.03,
+       "R": 0.09,
+       "R'": 0.11,
+       "R2": 0.03,
+       "U": 0.14,
+       "U'": 0.07,
+       "U2": 0.05
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345826-CLR6famnT1uakeWxJ2Z2",
+    "model": "openai/gpt-6-luna-decisions-20261006",
+    "provider": "OpenAI",
+    "usage": {
+     "cost": 7.84e-05,
+     "input_tokens": 784,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 7.84e-05,
+    "input_tokens": 784,
+    "output_tokens": 0
+   }
+  },
+  "a0af17fcb3f7227ee001eb18ae4d2d789558fc85ef19f0fbbd7cb0dbef2b8eba": {
+   "cost_usd": 5.1198e-05,
+   "created_at": "2026-10-18T17:50:18Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "typesafe/jev-1.13",
+   "original_latency_ms": 1072.79,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U'",
+      "confidence": 0.15,
+      "probabilities": {
+       "B": 0.02,
+       "B'": 0.01,
+       "B2": 0.03,
+       "D": 0.04,
+       "D'": 0.03,
+       "D2": 0.04,
+       "F": 0.06,
+       "F'": 0.03,
+       "F2": 0.04,
+       "L": 0.03,
+       "L'": 0.03,
+       "L2": 0.02,
+       "R": 0.07,
+       "R'": 0.06,
+       "R2": 0.05,
+       "U": 0.12,
+       "U'": 0.2,
+       "U2": 0.12
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345827-jiwqwOnaH5usMsx8GTRB",
+    "model": "typesafe/jev-1.13-20260917",
+    "provider": "TypeSafe",
+    "usage": {
+     "cost": 5.1198e-05,
+     "input_tokens": 1219,
+     "output_tokens": 157
+    }
+   },
+   "usage": {
+    "cost": 5.1198e-05,
+    "input_tokens": 1219,
+    "output_tokens": 157
+   }
+  },
+  "a487e43b4f30a770b7ff030ef683c88457832e017cd7c043d74b6daddca81d02": {
+   "cost_usd": 5.3046e-05,
+   "created_at": "2026-10-18T17:50:30Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "typesafe/jev-1.13",
+   "original_latency_ms": 1088.23,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "R",
+      "confidence": 0.07,
+      "probabilities": {
+       "B": 0.02,
+       "B'": 0.01,
+       "B2": 0.02,
+       "D": 0.05,
+       "D'": 0.03,
+       "D2": 0.05,
+       "F": 0.09,
+       "F'": 0.05,
+       "F2": 0.07,
+       "L": 0.05,
+       "L'": 0.04,
+       "L2": 0.03,
+       "R": 0.12,
+       "R'": 0.08,
+       "R2": 0.08,
+       "U": 0.07,
+       "U'": 0.04,
+       "U2": 0.09999999999999999
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345839-zCAXpWgULV8AaN6dgiZM",
+    "model": "typesafe/jev-1.13-20260917",
+    "provider": "TypeSafe",
+    "usage": {
+     "cost": 5.3046e-05,
+     "input_tokens": 1263,
+     "output_tokens": 156
+    }
+   },
+   "usage": {
+    "cost": 5.3046e-05,
+    "input_tokens": 1263,
+    "output_tokens": 156
+   }
+  },
+  "a79729a74c5e941a0adffd355f36c0847a8d0ec8182d142fb95e90c60bb8b4cf": {
+   "cost_usd": 4.158e-05,
+   "created_at": "2026-10-18T17:50:17Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "cloudflare/clef",
+   "original_latency_ms": 2790.33,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U'",
+      "confidence": 0.0619,
+      "probabilities": {
+       "B": 0.0327,
+       "B'": 0.0447,
+       "B2": 0.0608,
+       "D": 0.0549,
+       "D'": 0.0468,
+       "D2": 0.0551,
+       "F": 0.0337,
+       "F'": 0.0388,
+       "F2": 0.041,
+       "L": 0.0376,
+       "L'": 0.0498,
+       "L2": 0.0472,
+       "R": 0.0537,
+       "R'": 0.0514,
+       "R2": 0.0468,
+       "U": 0.1014,
+       "U'": 0.114,
+       "U2": 0.0895
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345824-0pmp4o6PZZS2eRSlYa2v",
+    "model": "cloudflare/clef",
+    "provider": "PrimeIntellect",
+    "usage": {
+     "cost": 4.158e-05,
+     "input_tokens": 990,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 4.158e-05,
+    "input_tokens": 990,
+    "output_tokens": 0
+   }
+  },
+  "a93c13b649a920a507a8e381e8743200cd5ee3a00c75c0e9775c6f5c902a3782": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:46:14Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 5293.04,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:46:14.2129999Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1668371000,
+    "load_duration": 21062300,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 581,
+    "prompt_eval_count": 626,
+    "prompt_eval_duration": 2913199000,
+    "total_duration": 4713250000
+   },
+   "usage": null
+  },
+  "abfd778a7396d92a2d8ecc44447447771c69d2df393b15ebc1055cb4d9e89fa8": {
+   "cost_usd": 4.179e-05,
+   "created_at": "2026-10-18T17:50:18Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "cloudflare/clef",
+   "original_latency_ms": 1167.72,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U",
+      "confidence": 0.0554,
+      "probabilities": {
+       "B": 0.0555,
+       "B'": 0.0619,
+       "B2": 0.099,
+       "D": 0.0471,
+       "D'": 0.0388,
+       "D2": 0.0526,
+       "F": 0.0388,
+       "F'": 0.037,
+       "F2": 0.0468,
+       "L": 0.0295,
+       "L'": 0.0409,
+       "L2": 0.0284,
+       "R": 0.0513,
+       "R'": 0.0564,
+       "R2": 0.0394,
+       "U": 0.1079,
+       "U'": 0.0802,
+       "U2": 0.0887
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345827-cT8IDl6W3e8vXAHBl9W3",
+    "model": "cloudflare/clef",
+    "provider": "PrimeIntellect",
+    "usage": {
+     "cost": 4.179e-05,
+     "input_tokens": 995,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 4.179e-05,
+    "input_tokens": 995,
+    "output_tokens": 0
+   }
+  },
+  "adc7be0de53e85731ade29560a87aa2e256a4d8c07015446829e4ba26e2b2084": {
+   "cost_usd": 4.2378e-05,
+   "created_at": "2026-10-18T17:50:26Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "cloudflare/clef",
+   "original_latency_ms": 1049.37,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U2",
+      "confidence": 0.0913,
+      "probabilities": {
+       "B": 0.0314,
+       "B'": 0.0345,
+       "B2": 0.0624,
+       "D": 0.0582,
+       "D'": 0.0426,
+       "D2": 0.0708,
+       "F": 0.0327,
+       "F'": 0.0361,
+       "F2": 0.0551,
+       "L": 0.034,
+       "L'": 0.0373,
+       "L2": 0.0373,
+       "R": 0.045,
+       "R'": 0.0443,
+       "R2": 0.056,
+       "U": 0.0998,
+       "U'": 0.0808,
+       "U2": 0.1418
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345835-pPO2poRJnfKckD2uom5W",
+    "model": "cloudflare/clef",
+    "provider": "PrimeIntellect",
+    "usage": {
+     "cost": 4.2378e-05,
+     "input_tokens": 1009,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 4.2378e-05,
+    "input_tokens": 1009,
+    "output_tokens": 0
+   }
+  },
+  "aff9c529364312fa69ab7779689506c52e1b46bdcf7b82312e560f4341d36a37": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:43:58Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 6437.61,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:43:58.4336686Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1755973000,
+    "load_duration": 181202900,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 606,
+    "prompt_eval_count": 651,
+    "prompt_eval_duration": 3416590000,
+    "total_duration": 5569255700
+   },
+   "usage": null
+  },
+  "bfa17cffcac92d9cccf2865c23da7edd1c4da2de19322db07f5041bdbf733bd1": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:43:41Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 5177.43,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:43:41.941375Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1510242000,
+    "load_duration": 75901000,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 599,
+    "prompt_eval_count": 644,
+    "prompt_eval_duration": 3139549000,
+    "total_duration": 4830807600
+   },
+   "usage": null
+  },
+  "c15c62d4d6dc01d4413564254e2ce53f28bc6265d2b814b143fd83ef0434afc7": {
+   "cost_usd": 5.082e-05,
+   "created_at": "2026-10-18T17:50:16Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "typesafe/jev-1.13",
+   "original_latency_ms": 1421.79,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U'",
+      "confidence": 0.29,
+      "probabilities": {
+       "B": 0.01,
+       "B'": 0.01,
+       "B2": 0.02,
+       "D": 0.03,
+       "D'": 0.02,
+       "D2": 0.03,
+       "F": 0.05,
+       "F'": 0.03,
+       "F2": 0.04,
+       "L": 0.03,
+       "L'": 0.02,
+       "L2": 0.02,
+       "R": 0.05,
+       "R'": 0.05,
+       "R2": 0.04,
+       "U": 0.12000000000000001,
+       "U'": 0.33,
+       "U2": 0.1
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345825-Q95yy3k37ATZfcfgN8GN",
+    "model": "typesafe/jev-1.13-20260917",
+    "provider": "TypeSafe",
+    "usage": {
+     "cost": 5.082e-05,
+     "input_tokens": 1210,
+     "output_tokens": 157
+    }
+   },
+   "usage": {
+    "cost": 5.082e-05,
+    "input_tokens": 1210,
+    "output_tokens": 157
+   }
+  },
+  "c1b7727f67fb03b2c5ee8ec126f85cba260ba394eff8ed3d9f4bcb25f7820012": {
+   "cost_usd": 7.85e-05,
+   "created_at": "2026-10-18T17:50:18Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "openai/gpt-6-luna-decisions",
+   "original_latency_ms": 1382.31,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U",
+      "confidence": 0.15,
+      "probabilities": {
+       "B": 0.06,
+       "B'": 0.04,
+       "B2": 0.05,
+       "D": 0.04,
+       "D'": 0.03,
+       "D2": 0.02,
+       "F": 0.04,
+       "F'": 0.02,
+       "F2": 0.03,
+       "L": 0.04,
+       "L'": 0.05,
+       "L2": 0.04,
+       "R": 0.09,
+       "R'": 0.1,
+       "R2": 0.02,
+       "U": 0.2,
+       "U'": 0.09,
+       "U2": 0.04
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345828-1SFsABf99JjKmsRbrmsv",
+    "model": "openai/gpt-6-luna-decisions-20261006",
+    "provider": "OpenAI",
+    "usage": {
+     "cost": 7.85e-05,
+     "input_tokens": 785,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 7.85e-05,
+    "input_tokens": 785,
+    "output_tokens": 0
+   }
+  },
+  "c20ee81d3c42b3e0b0388cedf14bdde031d7f1328d4660d1143c3be775033d08": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:43:26Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 5888.99,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:43:26.2614502Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1736359000,
+    "load_duration": 99343300,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 588,
+    "prompt_eval_count": 633,
+    "prompt_eval_duration": 3223789000,
+    "total_duration": 5353876200
+   },
+   "usage": null
+  },
+  "c45e59ccf72325fe4ee65fa534224540e9795d76d40d4ebb9ed86b9c459dfc56": {
+   "cost_usd": 5.2668e-05,
+   "created_at": "2026-10-18T17:50:27Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "typesafe/jev-1.13",
+   "original_latency_ms": 897.13,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "R",
+      "confidence": 0.08,
+      "probabilities": {
+       "B": 0.02,
+       "B'": 0.01,
+       "B2": 0.02,
+       "D": 0.05,
+       "D'": 0.03,
+       "D2": 0.05,
+       "F": 0.08,
+       "F'": 0.04,
+       "F2": 0.05,
+       "L": 0.05,
+       "L'": 0.04,
+       "L2": 0.03,
+       "R": 0.12,
+       "R'": 0.07,
+       "R2": 0.05,
+       "U": 0.09,
+       "U'": 0.07,
+       "U2": 0.13
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345836-OTYiQkNOT4tx4Ksm8R2m",
+    "model": "typesafe/jev-1.13-20260917",
+    "provider": "TypeSafe",
+    "usage": {
+     "cost": 5.2668e-05,
+     "input_tokens": 1254,
+     "output_tokens": 156
+    }
+   },
+   "usage": {
+    "cost": 5.2668e-05,
+    "input_tokens": 1254,
+    "output_tokens": 156
+   }
+  },
+  "c67f34148dbec8ca42a8a3559920c6639e2a961870cc6f69d74fe15fa57d8c4d": {
+   "cost_usd": 5.1702e-05,
+   "created_at": "2026-10-18T17:50:20Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "typesafe/jev-1.13",
+   "original_latency_ms": 997.72,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U2",
+      "confidence": 0.08,
+      "probabilities": {
+       "B": 0.02,
+       "B'": 0.01,
+       "B2": 0.02,
+       "D": 0.04,
+       "D'": 0.03,
+       "D2": 0.04,
+       "F": 0.07,
+       "F'": 0.05,
+       "F2": 0.05,
+       "L": 0.04,
+       "L'": 0.04,
+       "L2": 0.03,
+       "R": 0.11,
+       "R'": 0.08,
+       "R2": 0.07,
+       "U": 0.1,
+       "U'": 0.07,
+       "U2": 0.13
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345830-8cR8NYG9dzF2qRga33nK",
+    "model": "typesafe/jev-1.13-20260917",
+    "provider": "TypeSafe",
+    "usage": {
+     "cost": 5.1702e-05,
+     "input_tokens": 1231,
+     "output_tokens": 157
+    }
+   },
+   "usage": {
+    "cost": 5.1702e-05,
+    "input_tokens": 1231,
+    "output_tokens": 157
+   }
+  },
+  "c73a3c1fdf425aa0e6c27b0e61cc97551e06c1ea96b6b0a3d57b1728920ec506": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:45:51Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 6328.46,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:45:51.2366571Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1946142000,
+    "load_duration": 30456600,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 569,
+    "prompt_eval_count": 614,
+    "prompt_eval_duration": 3629786000,
+    "total_duration": 5762052100
+   },
+   "usage": null
+  },
+  "c73b0ab7dfe45fd9d413192b039c39dce6989d0355013e7019b487d64d373d8f": {
+   "cost_usd": 8.17e-05,
+   "created_at": "2026-10-18T17:50:36Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "openai/gpt-6-luna-decisions",
+   "original_latency_ms": 410.29,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U",
+      "confidence": 0.12,
+      "probabilities": {
+       "B": 0.03,
+       "B'": 0.05,
+       "B2": 0.07,
+       "D": 0.04,
+       "D'": 0.06,
+       "D2": 0.03,
+       "F": 0.05,
+       "F'": 0.03,
+       "F2": 0.04,
+       "L": 0.03,
+       "L'": 0.03,
+       "L2": 0.03,
+       "R": 0.05,
+       "R'": 0.09,
+       "R2": 0.04,
+       "U": 0.17,
+       "U'": 0.06,
+       "U2": 0.1
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345845-JzUzA7xHKknFGTmCG6NY",
+    "model": "openai/gpt-6-luna-decisions-20261006",
+    "provider": "OpenAI",
+    "usage": {
+     "cost": 8.17e-05,
+     "input_tokens": 817,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 8.17e-05,
+    "input_tokens": 817,
+    "output_tokens": 0
+   }
+  },
+  "c7982e9675874e6e3adb7dca30fe8cc81fa4419e11f566567c7d9b5152dc80cb": {
+   "cost_usd": 7.92e-05,
+   "created_at": "2026-10-19T09:04:04Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "openai/gpt-6-luna-decisions",
+   "original_latency_ms": 2854.89,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U",
+      "confidence": 0.07,
+      "probabilities": {
+       "B": 0.05,
+       "B'": 0.06,
+       "B2": 0.05,
+       "D": 0.04,
+       "D'": 0.05,
+       "D2": 0.02,
+       "F": 0.08,
+       "F'": 0.05,
+       "F2": 0.05,
+       "L": 0.04,
+       "L'": 0.05,
+       "L2": 0.04,
+       "R": 0.07,
+       "R'": 0.08,
+       "R2": 0.04,
+       "U": 0.12,
+       "U'": 0.05,
+       "U2": 0.06
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792400654-bu5o0cMZZOmeSUmVWi6C",
+    "model": "openai/gpt-6-luna-decisions-20261006",
+    "provider": "OpenAI",
+    "usage": {
+     "cost": 7.92e-05,
+     "input_tokens": 792,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 7.92e-05,
+    "input_tokens": 792,
+    "output_tokens": 0
+   }
+  },
+  "cb38cea7669a525b5e2d6796690db2af8dc8027487a42c06f4692db9b7305092": {
+   "cost_usd": 4.3344e-05,
+   "created_at": "2026-10-18T17:50:38Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "cloudflare/clef",
+   "original_latency_ms": 620.65,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "F2",
+      "confidence": 0.1678,
+      "probabilities": {
+       "B": 0.0236,
+       "B'": 0.0292,
+       "B2": 0.0531,
+       "D": 0.0508,
+       "D'": 0.0313,
+       "D2": 0.0597,
+       "F": 0.0899,
+       "F'": 0.0819,
+       "F2": 0.214,
+       "L": 0.0297,
+       "L'": 0.0287,
+       "L2": 0.0283,
+       "R": 0.0454,
+       "R'": 0.0418,
+       "R2": 0.0504,
+       "U": 0.0479,
+       "U'": 0.0474,
+       "U2": 0.0468
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345848-BtN82dkIK8KYT3jRUMzl",
+    "model": "cloudflare/clef",
+    "provider": "PrimeIntellect",
+    "usage": {
+     "cost": 4.3344e-05,
+     "input_tokens": 1032,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 4.3344e-05,
+    "input_tokens": 1032,
+    "output_tokens": 0
+   }
+  },
+  "ccd1967c21dd5f441a3e73ebae94fc8fd63cba5a10752a5f878363da2684bb5b": {
+   "cost_usd": 7.97e-05,
+   "created_at": "2026-10-18T17:50:24Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "openai/gpt-6-luna-decisions",
+   "original_latency_ms": 724.11,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U",
+      "confidence": 0.1,
+      "probabilities": {
+       "B": 0.05,
+       "B'": 0.05,
+       "B2": 0.06,
+       "D": 0.04,
+       "D'": 0.06,
+       "D2": 0.03,
+       "F": 0.04,
+       "F'": 0.03,
+       "F2": 0.04,
+       "L": 0.04,
+       "L'": 0.05,
+       "L2": 0.04,
+       "R": 0.07,
+       "R'": 0.07,
+       "R2": 0.03,
+       "U": 0.15,
+       "U'": 0.08,
+       "U2": 0.07
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345833-moMPM0OwsPczGyO9RHiU",
+    "model": "openai/gpt-6-luna-decisions-20261006",
+    "provider": "OpenAI",
+    "usage": {
+     "cost": 7.97e-05,
+     "input_tokens": 797,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 7.97e-05,
+    "input_tokens": 797,
+    "output_tokens": 0
+   }
+  },
+  "cdad3bb6c310d64640e257481259e35b871926c039d79b8efe3012a86c12a7d0": {
+   "cost_usd": 4.1874e-05,
+   "created_at": "2026-10-18T17:50:20Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "cloudflare/clef",
+   "original_latency_ms": 932.98,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "B2",
+      "confidence": 0.0444,
+      "probabilities": {
+       "B": 0.0547,
+       "B'": 0.0692,
+       "B2": 0.0975,
+       "D": 0.0601,
+       "D'": 0.0461,
+       "D2": 0.0622,
+       "F": 0.0356,
+       "F'": 0.0413,
+       "F2": 0.0426,
+       "L": 0.0373,
+       "L'": 0.0494,
+       "L2": 0.0385,
+       "R": 0.0487,
+       "R'": 0.0573,
+       "R2": 0.0429,
+       "U": 0.0692,
+       "U'": 0.0728,
+       "U2": 0.0745
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345830-A9HvqjUJdMxFLKKn5g2P",
+    "model": "cloudflare/clef",
+    "provider": "PrimeIntellect",
+    "usage": {
+     "cost": 4.1874e-05,
+     "input_tokens": 997,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 4.1874e-05,
+    "input_tokens": 997,
+    "output_tokens": 0
+   }
+  },
+  "d3080457d7dc551f5ac4149d9c823da257e41776891a64e92bb07c49b035c491": {
+   "cost_usd": 5.3592e-05,
+   "created_at": "2026-10-18T17:50:34Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "typesafe/jev-1.13",
+   "original_latency_ms": 888.13,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "F'",
+      "confidence": 0.26,
+      "probabilities": {
+       "B": 0.01,
+       "B'": 0.01,
+       "B2": 0.01,
+       "D": 0.05,
+       "D'": 0.04,
+       "D2": 0.04,
+       "F": 0.11,
+       "F'": 0.3,
+       "F2": 0.07,
+       "L": 0.04,
+       "L'": 0.03,
+       "L2": 0.02,
+       "R": 0.04,
+       "R'": 0.05,
+       "R2": 0.02,
+       "U": 0.06,
+       "U'": 0.04,
+       "U2": 0.06
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345843-RcZjJACQnHmc5fgr9Cl7",
+    "model": "typesafe/jev-1.13-20260917",
+    "provider": "TypeSafe",
+    "usage": {
+     "cost": 5.3592e-05,
+     "input_tokens": 1276,
+     "output_tokens": 157
+    }
+   },
+   "usage": {
+    "cost": 5.3592e-05,
+    "input_tokens": 1276,
+    "output_tokens": 157
+   }
+  },
+  "d4df67db82571fa8ecc2b98a8da6b7c841009c07987f0a154065bcb06e3e5319": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:43:46Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 4811.96,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:43:46.8370997Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1615037000,
+    "load_duration": 18943000,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 600,
+    "prompt_eval_count": 645,
+    "prompt_eval_duration": 2915959000,
+    "total_duration": 4695289000
+   },
+   "usage": null
+  },
+  "d4e84ad105c9f38c14711c0407e04fb7d6ab914829039d04a9aa946de34d6f3e": {
+   "cost_usd": 4.2126e-05,
+   "created_at": "2026-10-18T17:50:22Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "cloudflare/clef",
+   "original_latency_ms": 1168.69,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "B2",
+      "confidence": 0.0945,
+      "probabilities": {
+       "B": 0.0618,
+       "B'": 0.0878,
+       "B2": 0.1448,
+       "D": 0.0528,
+       "D'": 0.0459,
+       "D2": 0.0599,
+       "F": 0.0358,
+       "F'": 0.0445,
+       "F2": 0.0489,
+       "L": 0.022,
+       "L'": 0.0341,
+       "L2": 0.0256,
+       "R": 0.0459,
+       "R'": 0.0589,
+       "R2": 0.0381,
+       "U": 0.0742,
+       "U'": 0.0686,
+       "U2": 0.0504
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345831-5WX4T9IT444Fl2zaILlT",
+    "model": "cloudflare/clef",
+    "provider": "PrimeIntellect",
+    "usage": {
+     "cost": 4.2126e-05,
+     "input_tokens": 1003,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 4.2126e-05,
+    "input_tokens": 1003,
+    "output_tokens": 0
+   }
+  },
+  "d873f3f923f8e95cb9085f96ce468d9b67e3816b563bfe7e4f4150c583652d69": {
+   "cost_usd": 8.08e-05,
+   "created_at": "2026-10-18T17:50:32Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "openai/gpt-6-luna-decisions",
+   "original_latency_ms": 1019.77,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "R'",
+      "confidence": 0.14,
+      "probabilities": {
+       "B": 0.04,
+       "B'": 0.05,
+       "B2": 0.06,
+       "D": 0.03,
+       "D'": 0.05,
+       "D2": 0.03,
+       "F": 0.02,
+       "F'": 0.03,
+       "F2": 0.04,
+       "L": 0.03,
+       "L'": 0.05,
+       "L2": 0.05,
+       "R": 0.06,
+       "R'": 0.19,
+       "R2": 0.08,
+       "U": 0.09,
+       "U'": 0.04,
+       "U2": 0.06
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345842-e0dcxeaCcy8tHvxgHI7R",
+    "model": "openai/gpt-6-luna-decisions-20261006",
+    "provider": "OpenAI",
+    "usage": {
+     "cost": 8.08e-05,
+     "input_tokens": 808,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 8.08e-05,
+    "input_tokens": 808,
+    "output_tokens": 0
+   }
+  },
+  "da1d8e8203ffc133120b1c94d6964e4599ffe266427e739221a3368109282fe3": {
+   "cost_usd": 4.3554e-05,
+   "created_at": "2026-10-18T17:50:39Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "cloudflare/clef",
+   "original_latency_ms": 621.71,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "F2",
+      "confidence": 0.1108,
+      "probabilities": {
+       "B": 0.0273,
+       "B'": 0.0317,
+       "B2": 0.0775,
+       "D": 0.0583,
+       "D'": 0.0385,
+       "D2": 0.0806,
+       "F": 0.0637,
+       "F'": 0.0628,
+       "F2": 0.1602,
+       "L": 0.028,
+       "L'": 0.0314,
+       "L2": 0.0404,
+       "R": 0.0362,
+       "R'": 0.0362,
+       "R2": 0.0608,
+       "U": 0.0496,
+       "U'": 0.0472,
+       "U2": 0.0697
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345849-R6RGRPsvpWZ9IT4KkWPr",
+    "model": "cloudflare/clef",
+    "provider": "PrimeIntellect",
+    "usage": {
+     "cost": 4.3554e-05,
+     "input_tokens": 1037,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 4.3554e-05,
+    "input_tokens": 1037,
+    "output_tokens": 0
+   }
+  },
+  "da54f07876755d238a7b3e30ca690d31d09954edb9b54103b5ae6ccdaeb61130": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:47:20Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 5575.53,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:47:20.5182618Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1699508000,
+    "load_duration": 60976300,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 617,
+    "prompt_eval_count": 662,
+    "prompt_eval_duration": 2865596000,
+    "total_duration": 4820074900
+   },
+   "usage": null
+  },
+  "dcded25f485f46b533a4301c0d7d3598f761f43ae23109be82293fe54e1db842": {
+   "cost_usd": 5.0694e-05,
+   "created_at": "2026-10-18T17:50:14Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "typesafe/jev-1.13",
+   "original_latency_ms": 1140.4,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U",
+      "confidence": 0.05,
+      "probabilities": {
+       "B": 0.03,
+       "B'": 0.02,
+       "B2": 0.04,
+       "D": 0.03,
+       "D'": 0.02,
+       "D2": 0.07,
+       "F": 0.06,
+       "F'": 0.04,
+       "F2": 0.07,
+       "L": 0.05,
+       "L'": 0.05,
+       "L2": 0.07,
+       "R": 0.07,
+       "R'": 0.06,
+       "R2": 0.07,
+       "U": 0.09999999999999999,
+       "U'": 0.06,
+       "U2": 0.09
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345823-oexmayYzlybhM2nUxi6k",
+    "model": "typesafe/jev-1.13-20260917",
+    "provider": "TypeSafe",
+    "usage": {
+     "cost": 5.0694e-05,
+     "input_tokens": 1207,
+     "output_tokens": 156
+    }
+   },
+   "usage": {
+    "cost": 5.0694e-05,
+    "input_tokens": 1207,
+    "output_tokens": 156
+   }
+  },
+  "df4922eddd1b1eeaa1934ca01418d192d7fceebea100274a48da784e435e9770": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:46:03Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 5399.83,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:46:03.4435541Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1640779000,
+    "load_duration": 55288300,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 575,
+    "prompt_eval_count": 620,
+    "prompt_eval_duration": 2738433000,
+    "total_duration": 4811009300
+   },
+   "usage": null
+  },
+  "e079f06e0adc0a028fa90d0fad2d2a1f2b16680bbedfea84fbb7d2d158fac032": {
+   "cost_usd": 4.305e-05,
+   "created_at": "2026-10-18T17:50:34Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "cloudflare/clef",
+   "original_latency_ms": 1182.09,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "F2",
+      "confidence": 0.0351,
+      "probabilities": {
+       "B": 0.0381,
+       "B'": 0.0419,
+       "B2": 0.0782,
+       "D": 0.0521,
+       "D'": 0.0403,
+       "D2": 0.0641,
+       "F": 0.0486,
+       "F'": 0.0449,
+       "F2": 0.0887,
+       "L": 0.035,
+       "L'": 0.0435,
+       "L2": 0.0358,
+       "R": 0.049,
+       "R'": 0.0538,
+       "R2": 0.0538,
+       "U": 0.0726,
+       "U'": 0.0729,
+       "U2": 0.0866
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345843-mdl7Xs6jSL2vKzWXr7iD",
+    "model": "cloudflare/clef",
+    "provider": "PrimeIntellect",
+    "usage": {
+     "cost": 4.305e-05,
+     "input_tokens": 1025,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 4.305e-05,
+    "input_tokens": 1025,
+    "output_tokens": 0
+   }
+  },
+  "e51eb6e3c8f713e2b48919bfb9393dc4dd3388654de9475535de0c66e454c7a8": {
+   "cost_usd": 4.3806e-05,
+   "created_at": "2026-10-18T17:50:42Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "cloudflare/clef",
+   "original_latency_ms": 678.26,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "F2",
+      "confidence": 0.1028,
+      "probabilities": {
+       "B": 0.0273,
+       "B'": 0.0355,
+       "B2": 0.0827,
+       "D": 0.0494,
+       "D'": 0.0353,
+       "D2": 0.0704,
+       "F": 0.0573,
+       "F'": 0.0664,
+       "F2": 0.1526,
+       "L": 0.0279,
+       "L'": 0.0347,
+       "L2": 0.0394,
+       "R": 0.0334,
+       "R'": 0.0384,
+       "R2": 0.0644,
+       "U": 0.0521,
+       "U'": 0.0521,
+       "U2": 0.0807
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345851-Zb791OAF9t9D4eJvXiqo",
+    "model": "cloudflare/clef",
+    "provider": "PrimeIntellect",
+    "usage": {
+     "cost": 4.3806e-05,
+     "input_tokens": 1043,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 4.3806e-05,
+    "input_tokens": 1043,
+    "output_tokens": 0
+   }
+  },
+  "ec72e4e376e9560830d90d13d68bed2a0b558ffa3998187d024ce852ea24d743": {
+   "cost_usd": 5.3802e-05,
+   "created_at": "2026-10-18T17:50:35Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "typesafe/jev-1.13",
+   "original_latency_ms": 946.62,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U",
+      "confidence": 0.08,
+      "probabilities": {
+       "B": 0.02,
+       "B'": 0.01,
+       "B2": 0.03,
+       "D": 0.08,
+       "D'": 0.05,
+       "D2": 0.06,
+       "F": 0.12,
+       "F'": 0.03,
+       "F2": 0.08,
+       "L": 0.07,
+       "L'": 0.05,
+       "L2": 0.03,
+       "R": 0.06,
+       "R'": 0.01,
+       "R2": 0.03,
+       "U": 0.13,
+       "U'": 0.04,
+       "U2": 0.1
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345844-g7ASiT7Ubyil7Gy74pvL",
+    "model": "typesafe/jev-1.13-20260917",
+    "provider": "TypeSafe",
+    "usage": {
+     "cost": 5.3802e-05,
+     "input_tokens": 1281,
+     "output_tokens": 156
+    }
+   },
+   "usage": {
+    "cost": 5.3802e-05,
+    "input_tokens": 1281,
+    "output_tokens": 156
+   }
+  },
+  "efca891d7804c62b9c1c13bcaa53fcfef5ab23dd2afab8ed993a8ba2686b1c34": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:43:01Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 4237.57,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:43:01.6133185Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1398459000,
+    "load_duration": 26641000,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 575,
+    "prompt_eval_count": 620,
+    "prompt_eval_duration": 2667386000,
+    "total_duration": 4179406500
+   },
+   "usage": null
+  },
+  "f14f781dde5df91f2e0d60cfc2d23997a50e11b933340e4e440442d89c90c828": {
+   "cost_usd": 4.2336e-05,
+   "created_at": "2026-10-18T17:50:24Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "cloudflare/clef",
+   "original_latency_ms": 862.62,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U2",
+      "confidence": 0.1284,
+      "probabilities": {
+       "B": 0.0289,
+       "B'": 0.0302,
+       "B2": 0.0682,
+       "D": 0.0507,
+       "D'": 0.0379,
+       "D2": 0.0692,
+       "F": 0.0365,
+       "F'": 0.0332,
+       "F2": 0.0663,
+       "L": 0.0302,
+       "L'": 0.0365,
+       "L2": 0.0343,
+       "R": 0.042,
+       "R'": 0.0423,
+       "R2": 0.0487,
+       "U": 0.0889,
+       "U'": 0.0791,
+       "U2": 0.1768
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345834-kagBBE87LHytCNZ5yRlX",
+    "model": "cloudflare/clef",
+    "provider": "PrimeIntellect",
+    "usage": {
+     "cost": 4.2336e-05,
+     "input_tokens": 1008,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 4.2336e-05,
+    "input_tokens": 1008,
+    "output_tokens": 0
+   }
+  },
+  "f225135d029a1a00a66c249632402bd63e63efde65d65c98e6dfbd35f85e877a": {
+   "cost_usd": 4.2588e-05,
+   "created_at": "2026-10-18T17:50:28Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "cloudflare/clef",
+   "original_latency_ms": 1867.2,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U2",
+      "confidence": 0.0749,
+      "probabilities": {
+       "B": 0.0288,
+       "B'": 0.0332,
+       "B2": 0.0645,
+       "D": 0.0468,
+       "D'": 0.037,
+       "D2": 0.0665,
+       "F": 0.0433,
+       "F'": 0.0407,
+       "F2": 0.0828,
+       "L": 0.0327,
+       "L'": 0.041,
+       "L2": 0.0376,
+       "R": 0.0483,
+       "R'": 0.0531,
+       "R2": 0.058,
+       "U": 0.0818,
+       "U'": 0.0775,
+       "U2": 0.1263
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345837-LSqsAYP7wb8PpbKALY6f",
+    "model": "cloudflare/clef",
+    "provider": "PrimeIntellect",
+    "usage": {
+     "cost": 4.2588e-05,
+     "input_tokens": 1014,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 4.2588e-05,
+    "input_tokens": 1014,
+    "output_tokens": 0
+   }
+  },
+  "f40173cbd149e93ca50be9c81406887f6fe1aa6fdcc4d29bf210fc60a4b54438": {
+   "cost_usd": 5.229e-05,
+   "created_at": "2026-10-18T17:50:24Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "typesafe/jev-1.13",
+   "original_latency_ms": 911.79,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U2",
+      "confidence": 0.07,
+      "probabilities": {
+       "B": 0.02,
+       "B'": 0.01,
+       "B2": 0.02,
+       "D": 0.05,
+       "D'": 0.03,
+       "D2": 0.05,
+       "F": 0.08,
+       "F'": 0.04,
+       "F2": 0.05,
+       "L": 0.05,
+       "L'": 0.03,
+       "L2": 0.03,
+       "R": 0.11,
+       "R'": 0.06,
+       "R2": 0.05,
+       "U": 0.11,
+       "U'": 0.09,
+       "U2": 0.12000000000000001
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345834-vr8jFybkZVdxVzQCkAwY",
+    "model": "typesafe/jev-1.13-20260917",
+    "provider": "TypeSafe",
+    "usage": {
+     "cost": 5.229e-05,
+     "input_tokens": 1245,
+     "output_tokens": 157
+    }
+   },
+   "usage": {
+    "cost": 5.229e-05,
+    "input_tokens": 1245,
+    "output_tokens": 157
+   }
+  },
+  "f4c8a55af2b77109bc8f8495bfeba1257413d929126fe252679377bb3d8f8389": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:42:37Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 46540.13,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:42:37.1659783Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1506428000,
+    "load_duration": 19709017400,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_count": 610,
+    "prompt_eval_duration": 24699466000,
+    "total_duration": 45997609900
+   },
+   "usage": null
+  },
+  "f6d59055104ec3f90fb36b43e1b7c0c238b83ab762298a4d40ebc4ecbd205fed": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:44:12Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 5393.07,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:44:11.8495344Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1649347000,
+    "load_duration": 56254800,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 612,
+    "prompt_eval_count": 657,
+    "prompt_eval_duration": 2886612000,
+    "total_duration": 4702085000
+   },
+   "usage": null
+  },
+  "f7f6d7b6327fe6aa0898eaceda217465e51c892a2a9a48abfafcf74549ce12d7": {
+   "cost_usd": null,
+   "created_at": "2026-10-18T17:46:41Z",
+   "endpoint": "POST /api/chat",
+   "model": "llama3.2",
+   "original_latency_ms": 4914.73,
+   "provider": "ollama",
+   "response": {
+    "created_at": "2026-10-18T17:46:41.456139Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 8,
+    "eval_duration": 1590474000,
+    "load_duration": 35029900,
+    "message": {
+     "content": "{\"move\": \"U2\"}",
+     "role": "assistant"
+    },
+    "model": "llama3.2",
+    "prompt_eval_cached_count": 594,
+    "prompt_eval_count": 639,
+    "prompt_eval_duration": 2760202000,
+    "total_duration": 4486177200
+   },
+   "usage": null
+  },
+  "f819bcc2f9d283f788cd6306d1bf87d61da4bf5fa6bbab4d685c974025c72243": {
+   "cost_usd": 4.3302e-05,
+   "created_at": "2026-10-18T17:50:37Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "cloudflare/clef",
+   "original_latency_ms": 849.49,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "F2",
+      "confidence": 0.0353,
+      "probabilities": {
+       "B": 0.034,
+       "B'": 0.0359,
+       "B2": 0.065,
+       "D": 0.0743,
+       "D'": 0.0483,
+       "D2": 0.0838,
+       "F": 0.0616,
+       "F'": 0.0565,
+       "F2": 0.0889,
+       "L": 0.034,
+       "L'": 0.0391,
+       "L2": 0.0348,
+       "R": 0.042,
+       "R'": 0.0443,
+       "R2": 0.0483,
+       "U": 0.0684,
+       "U'": 0.0638,
+       "U2": 0.0769
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345847-4nv2MZLLYqK9CpCostTr",
+    "model": "cloudflare/clef",
+    "provider": "PrimeIntellect",
+    "usage": {
+     "cost": 4.3302e-05,
+     "input_tokens": 1031,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 4.3302e-05,
+    "input_tokens": 1031,
+    "output_tokens": 0
+   }
+  },
+  "fd95a29ab1671633573132a3eb4355c62e3a047ce72c599fad7131b3b67a505a": {
+   "cost_usd": 7.93e-05,
+   "created_at": "2026-10-18T17:50:23Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "openai/gpt-6-luna-decisions",
+   "original_latency_ms": 853.07,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "U",
+      "confidence": 0.17,
+      "probabilities": {
+       "B": 0.03,
+       "B'": 0.02,
+       "B2": 0.03,
+       "D": 0.04,
+       "D'": 0.06,
+       "D2": 0.02,
+       "F": 0.03,
+       "F'": 0.02,
+       "F2": 0.03,
+       "L": 0.02,
+       "L'": 0.03,
+       "L2": 0.03,
+       "R": 0.08,
+       "R'": 0.1,
+       "R2": 0.03,
+       "U": 0.22,
+       "U'": 0.12,
+       "U2": 0.09
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345832-05sz8Dd5Cs25nDvCBuik",
+    "model": "openai/gpt-6-luna-decisions-20261006",
+    "provider": "OpenAI",
+    "usage": {
+     "cost": 7.93e-05,
+     "input_tokens": 793,
+     "output_tokens": 0
+    }
+   },
+   "usage": {
+    "cost": 7.93e-05,
+    "input_tokens": 793,
+    "output_tokens": 0
+   }
+  },
+  "ff35863315509e06c11fd81081aa3f32003cdbe83e9015c5abb5805d7d64a12c": {
+   "cost_usd": 5.2458e-05,
+   "created_at": "2026-10-18T17:50:28Z",
+   "endpoint": "POST /api/alpha/decisions",
+   "model": "typesafe/jev-1.13",
+   "original_latency_ms": 1450.69,
+   "provider": "openrouter",
+   "response": {
+    "answers": {
+     "next_move": {
+      "choice": "R'",
+      "confidence": 0.3,
+      "probabilities": {
+       "B": 0.01,
+       "B'": 0.01,
+       "B2": 0.01,
+       "D": 0.03,
+       "D'": 0.03,
+       "D2": 0.04,
+       "F": 0.06,
+       "F'": 0.06,
+       "F2": 0.04,
+       "L": 0.03,
+       "L'": 0.03,
+       "L2": 0.02,
+       "R": 0.09,
+       "R'": 0.34,
+       "R2": 0.08,
+       "U": 0.03,
+       "U'": 0.04,
+       "U2": 0.05
+      },
+      "type": "choice"
+     }
+    },
+    "id": "gen-dec-1792345837-sDTfU3nsiQc5LBLt52EY",
+    "model": "typesafe/jev-1.13-20260917",
+    "provider": "TypeSafe",
+    "usage": {
+     "cost": 5.2458e-05,
+     "input_tokens": 1249,
+     "output_tokens": 157
+    }
+   },
+   "usage": {
+    "cost": 5.2458e-05,
+    "input_tokens": 1249,
+    "output_tokens": 157
+   }
+  }
+ },
+ "version": 1
+}

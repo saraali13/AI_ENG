@@ -1,0 +1,1965 @@
+{
+  "run_id": "dc4cbdbc3812",
+  "created_at": "2026-10-17T08:55:42+00:00",
+  "completed_at": "2026-10-17T08:55:53+00:00",
+  "status": "completed",
+  "error": null,
+  "category": "extension",
+  "mode": "mock",
+  "seed": 1882138820,
+  "move_limit": 30,
+  "scramble_moves": [
+    "F'",
+    "B",
+    "L",
+    "F'",
+    "D2",
+    "R'",
+    "U2",
+    "L",
+    "F'",
+    "B",
+    "R",
+    "F2",
+    "R2",
+    "U2",
+    "L2",
+    "F",
+    "D",
+    "L2",
+    "B2"
+  ],
+  "scramble": "F' B L F' D2 R' U2 L F' B R F2 R2 U2 L2 F D L2 B2",
+  "scramble_length": 19,
+  "start_facelets": "DBLRUDDDRFLFURRLBLRFUFFFBLDRUFFDULDUFDBRLLBRUULRUBBBBD",
+  "counting_convention": "Face-turn metric: each of the 18 moves (U, U', U2, R, R', R2, F, F', F2, D, D', D2, L, L', L2, B, B', B2) counts as exactly one move. The scramble length and every competitor's move count use this convention. The move limit counts valid moves that were actually applied to the cube.",
+  "optimal": {
+    "length": null,
+    "moves": null,
+    "exact": false,
+    "method": "none",
+    "note": "Scramble has 19 moves. Exact search only proves optimal lengths up to 8 moves, so no trustworthy optimum is available (N/A)."
+  },
+  "competitors": [
+    {
+      "key": "jev",
+      "name": "Jev 1.13",
+      "openrouter_id": "typesafe/jev-1.13",
+      "provider": "TypeSafe",
+      "protocol": "decisions",
+      "mode": "mock",
+      "personality": "Fast; follows a solution but picks a wrong legal move about 10% of the time.",
+      "status": "solved",
+      "failure_reason": null,
+      "applied_moves": [
+        "B2",
+        "L2",
+        "D'",
+        "F'",
+        "L2",
+        "U2",
+        "R2",
+        "F2",
+        "R'",
+        "B'",
+        "F",
+        "L'",
+        "U2",
+        "U'",
+        "U",
+        "R",
+        "D2",
+        "F",
+        "L'",
+        "B'",
+        "F"
+      ],
+      "start_facelets": "DBLRUDDDRFLFURRLBLRFUFFFBLDRUFFDULDUFDBRLLBRUULRUBBBBD",
+      "final_facelets": "UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB",
+      "started_at": "2026-10-17T08:55:42+00:00",
+      "finished_at": "2026-10-17T08:55:44+00:00",
+      "total_time_ms": 1974.3,
+      "steps": [
+        {
+          "step": 1,
+          "proposed": "B2",
+          "move": "B2",
+          "move_number": 1,
+          "raw": "B2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 69.46,
+          "facelets_after": "UDLRUDDDRFLBURRLBFRFUFFFBLDRUFFDULBDLDBRLLFRUDBBBBURLU",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 2,
+          "proposed": "L2",
+          "move": "L2",
+          "move_number": 2,
+          "raw": "L2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 93.7,
+          "facelets_after": "RDLFUDLDRFLBURRLBFUFUUFFBLDUUFRDUDBDURFLLRBDLDBBBBFRLR",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 3,
+          "proposed": "D'",
+          "move": "D'",
+          "move_number": 3,
+          "raw": "D'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 86.17,
+          "facelets_after": "RDLFUDLDRFLBURRRLRUFUUFFLBFFUDUDBURDURFLLRBLDDBBBBFBDL",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 4,
+          "proposed": "F'",
+          "move": "F'",
+          "move_number": 4,
+          "raw": "F'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 112.79,
+          "facelets_after": "RDLFUDFURDLBURRFLRUFFFFBUULFRDUDBURDURRLLDBLLDBBBBFBDL",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 5,
+          "proposed": "L2",
+          "move": "L2",
+          "move_number": 5,
+          "raw": "L2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 89.38,
+          "facelets_after": "FDLUUDUURDLBURRFLRLFFFFBBULRRDFDBFRDLLBDLLRRUDBUBBFBDU",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 6,
+          "proposed": "U2",
+          "move": "U2",
+          "move_number": 6,
+          "raw": "U2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 95.03,
+          "facelets_after": "RUUDUULDFLLBURRFLRDBUFFBBULRRDFDBFRDDLBDLLRRULFFBBFBDU",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 7,
+          "proposed": "R2",
+          "move": "R2",
+          "move_number": 7,
+          "raw": "R2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 43.62,
+          "facelets_after": "RUDDUBLDDRLFRRUBLLDBBFFBBULRRUFDUFRFDLBDLLRRULFFBBFUDU",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 8,
+          "proposed": "F2",
+          "move": "F2",
+          "move_number": 8,
+          "raw": "F2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 94.04,
+          "facelets_after": "RUDDUBURRULFLRUBLLLUBBFFBBDDDLFDUFRFDLBDLRRRRLFFBBFUDU",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 9,
+          "proposed": "R'",
+          "move": "R'",
+          "move_number": 9,
+          "raw": "R'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 87.32,
+          "facelets_after": "RUUDUBURLFULLRLULBLUDBFBBBRDDBFDFFRDDLBDLRRRRFFFUBFLDU",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 10,
+          "proposed": "B'",
+          "move": "B'",
+          "move_number": 10,
+          "raw": "B'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 116.97,
+          "facelets_after": "RDDDUBURLFURLRUULULUDBFBBBRDDBFDFBLLFLBRLRDRRFFUFBDFUL",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 11,
+          "proposed": "F",
+          "move": "F",
+          "move_number": 11,
+          "raw": "F",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 95.06,
+          "facelets_after": "RDDDUBRRBUURRRULLUBBLBFURBDULFFDFBLLFLDRLDDRBFFUFBDFUL",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 12,
+          "proposed": "L'",
+          "move": "L'",
+          "move_number": 12,
+          "raw": "L'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 108.41,
+          "facelets_after": "BDDBUBRRBUURRRULLUUBLFFUBBDLLFDDFULLDDBLLRFRDFFRFBDFUR",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 13,
+          "proposed": "U2",
+          "move": "U2",
+          "move_number": 13,
+          "raw": "U2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 124.82,
+          "facelets_after": "BRRBUBDDBDDBRRULLUFFRFFUBBDLLFDDFULLUURLLRFRDUBLFBDFUR",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 14,
+          "proposed": "U'",
+          "move": "U'",
+          "move_number": 14,
+          "raw": "U'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 85.51,
+          "facelets_after": "RBBRUDBBDFFRRRULLUUURFFUBBDLLFDDFULLUBLLLRFRDDDBFBDFUR",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 15,
+          "proposed": "U",
+          "move": "U",
+          "move_number": 15,
+          "raw": "U",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 56.92,
+          "facelets_after": "BRRBUBDDBDDBRRULLUFFRFFUBBDLLFDDFULLUURLLRFRDUBLFBDFUR",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 16,
+          "proposed": "R",
+          "move": "R",
+          "move_number": 16,
+          "raw": "R",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 98.56,
+          "facelets_after": "BRRBUUDDDLRDLRDUUBFFFFFFBBLLLFDDFULUUURLLRFRDBBLBBDRUR",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 17,
+          "proposed": "D2",
+          "move": "D2",
+          "move_number": 17,
+          "raw": "D2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 72.48,
+          "facelets_after": "BRRBUUDDDLRDLRDFRDFFFFFFRURULUFDDFLLUURLLRUUBBBLBBDBBL",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 18,
+          "proposed": "F",
+          "move": "F",
+          "move_number": 18,
+          "raw": "F",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 80.67,
+          "facelets_after": "BRRBUUBRRDRDDRDDRDRFFUFFRFFFLLFDDFLLUUULLLUUUBBLBBDBBL",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 19,
+          "proposed": "L'",
+          "move": "L'",
+          "move_number": 19,
+          "raw": "L'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 78.05,
+          "facelets_after": "RRRUUURRRDRDDRDDRDFFFFFFFFFLLLDDDLLLULUULUULUBBBBBBBBB",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 20,
+          "proposed": "B'",
+          "move": "B'",
+          "move_number": 20,
+          "raw": "B'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 119.14,
+          "facelets_after": "UUUUUURRRDRRDRRDRRFFFFFFFFFLLLDDDDDDLLULLULLUBBBBBBBBB",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 21,
+          "proposed": "F",
+          "move": "F",
+          "move_number": 21,
+          "raw": "F",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 103.3,
+          "facelets_after": "UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB",
+          "solved_after": true,
+          "meta": {
+            "mock": true
+          }
+        }
+      ],
+      "metrics": {
+        "solved": true,
+        "moves": 21,
+        "avg_latency_ms": 91.02,
+        "total_time_ms": 1974.3,
+        "invalid_responses": 0,
+        "api_errors": 0,
+        "attempts": 21,
+        "optimality_gap": null
+      }
+    },
+    {
+      "key": "luna",
+      "name": "GPT-6 Luna Decisions",
+      "openrouter_id": "openai/gpt-6-luna-decisions",
+      "provider": "OpenAI",
+      "protocol": "decisions",
+      "mode": "mock",
+      "personality": "Medium speed; sometimes answers with an illegal move or free text (invalid response).",
+      "status": "solved",
+      "failure_reason": null,
+      "applied_moves": [
+        "B2",
+        "L2",
+        "F2",
+        "F2",
+        "D'",
+        "F'",
+        "L2",
+        "U2",
+        "R2",
+        "F2",
+        "R'",
+        "B'",
+        "F",
+        "L'",
+        "U2",
+        "R",
+        "D2",
+        "F",
+        "L'",
+        "B'",
+        "F"
+      ],
+      "start_facelets": "DBLRUDDDRFLFURRLBLRFUFFFBLDRUFFDULDUFDBRLLBRUULRUBBBBD",
+      "final_facelets": "UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB",
+      "started_at": "2026-10-17T08:55:42+00:00",
+      "finished_at": "2026-10-17T08:55:47+00:00",
+      "total_time_ms": 5823.3,
+      "steps": [
+        {
+          "step": 1,
+          "proposed": "Rw",
+          "move": null,
+          "move_number": null,
+          "raw": "Rw",
+          "responded": true,
+          "valid": false,
+          "applied": false,
+          "error_kind": "invalid_response",
+          "error": "Illegal move 'Rw': expected one of U, U', U2, R, R', R2, F, F', F2, D, D', D2, L, L', L2, B, B', B2",
+          "latency_ms": 284.34,
+          "facelets_after": "DBLRUDDDRFLFURRLBLRFUFFFBLDRUFFDULDUFDBRLLBRUULRUBBBBD",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 2,
+          "proposed": "B2",
+          "move": "B2",
+          "move_number": 1,
+          "raw": "B2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 161.92,
+          "facelets_after": "UDLRUDDDRFLBURRLBFRFUFFFBLDRUFFDULBDLDBRLLFRUDBBBBURLU",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 3,
+          "proposed": "L2",
+          "move": "L2",
+          "move_number": 2,
+          "raw": "L2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 264.06,
+          "facelets_after": "RDLFUDLDRFLBURRLBFUFUUFFBLDUUFRDUDBDURFLLRBDLDBBBBFRLR",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 4,
+          "proposed": "F2",
+          "move": "F2",
+          "move_number": 3,
+          "raw": "F2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 321.28,
+          "facelets_after": "RDLFUDFUULLBRRRFBFDLBFFUUFURDLRDUDBDURLLLUBDFDBBBBFRLR",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 5,
+          "proposed": "F2",
+          "move": "F2",
+          "move_number": 4,
+          "raw": "F2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 211.76,
+          "facelets_after": "RDLFUDLDRFLBURRLBFUFUUFFBLDUUFRDUDBDURFLLRBDLDBBBBFRLR",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 6,
+          "proposed": "D'",
+          "move": "D'",
+          "move_number": 5,
+          "raw": "D'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 258.67,
+          "facelets_after": "RDLFUDLDRFLBURRRLRUFUUFFLBFFUDUDBURDURFLLRBLDDBBBBFBDL",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 7,
+          "proposed": "F'",
+          "move": "F'",
+          "move_number": 6,
+          "raw": "F'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 154.63,
+          "facelets_after": "RDLFUDFURDLBURRFLRUFFFFBUULFRDUDBURDURRLLDBLLDBBBBFBDL",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 8,
+          "proposed": "L2",
+          "move": "L2",
+          "move_number": 7,
+          "raw": "L2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 177.75,
+          "facelets_after": "FDLUUDUURDLBURRFLRLFFFFBBULRRDFDBFRDLLBDLLRRUDBUBBFBDU",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 9,
+          "proposed": "U2",
+          "move": "U2",
+          "move_number": 8,
+          "raw": "U2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 173.34,
+          "facelets_after": "RUUDUULDFLLBURRFLRDBUFFBBULRRDFDBFRDDLBDLLRRULFFBBFBDU",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 10,
+          "proposed": "R2",
+          "move": "R2",
+          "move_number": 9,
+          "raw": "R2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 188.17,
+          "facelets_after": "RUDDUBLDDRLFRRUBLLDBBFFBBULRRUFDUFRFDLBDLLRRULFFBBFUDU",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 11,
+          "proposed": "F2",
+          "move": "F2",
+          "move_number": 10,
+          "raw": "F2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 226.62,
+          "facelets_after": "RUDDUBURRULFLRUBLLLUBBFFBBDDDLFDUFRFDLBDLRRRRLFFBBFUDU",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 12,
+          "proposed": "R'",
+          "move": "R'",
+          "move_number": 11,
+          "raw": "R'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 194.95,
+          "facelets_after": "RUUDUBURLFULLRLULBLUDBFBBBRDDBFDFFRDDLBDLRRRRFFFUBFLDU",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 13,
+          "proposed": "B'",
+          "move": "B'",
+          "move_number": 12,
+          "raw": "B'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 344.2,
+          "facelets_after": "RDDDUBURLFURLRUULULUDBFBBBRDDBFDFBLLFLBRLRDRRFFUFBDFUL",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 14,
+          "proposed": "F",
+          "move": "F",
+          "move_number": 13,
+          "raw": "F",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 259.45,
+          "facelets_after": "RDDDUBRRBUURRRULLUBBLBFURBDULFFDFBLLFLDRLDDRBFFUFBDFUL",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 15,
+          "proposed": "L'",
+          "move": "L'",
+          "move_number": 14,
+          "raw": "L'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 328.45,
+          "facelets_after": "BDDBUBRRBUURRRULLUUBLFFUBBDLLFDDFULLDDBLLRFRDFFRFBDFUR",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 16,
+          "proposed": "U2",
+          "move": "U2",
+          "move_number": 15,
+          "raw": "U2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 206.39,
+          "facelets_after": "BRRBUBDDBDDBRRULLUFFRFFUBBDLLFDDFULLUURLLRFRDUBLFBDFUR",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 17,
+          "proposed": "R",
+          "move": "R",
+          "move_number": 16,
+          "raw": "R",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 320.53,
+          "facelets_after": "BRRBUUDDDLRDLRDUUBFFFFFFBBLLLFDDFULUUURLLRFRDBBLBBDRUR",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 18,
+          "proposed": "D2",
+          "move": "D2",
+          "move_number": 17,
+          "raw": "D2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 239.14,
+          "facelets_after": "BRRBUUDDDLRDLRDFRDFFFFFFRURULUFDDFLLUURLLRUUBBBLBBDBBL",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 19,
+          "proposed": "F",
+          "move": "F",
+          "move_number": 18,
+          "raw": "F",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 297.85,
+          "facelets_after": "BRRBUUBRRDRDDRDDRDRFFUFFRFFFLLFDDFLLUUULLLUUUBBLBBDBBL",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 20,
+          "proposed": "L'",
+          "move": "L'",
+          "move_number": 19,
+          "raw": "L'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 252.88,
+          "facelets_after": "RRRUUURRRDRDDRDDRDFFFFFFFFFLLLDDDLLLULUULUULUBBBBBBBBB",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 21,
+          "proposed": "M",
+          "move": null,
+          "move_number": null,
+          "raw": "M",
+          "responded": true,
+          "valid": false,
+          "applied": false,
+          "error_kind": "invalid_response",
+          "error": "Illegal move 'M': expected one of U, U', U2, R, R', R2, F, F', F2, D, D', D2, L, L', L2, B, B', B2",
+          "latency_ms": 220.19,
+          "facelets_after": "RRRUUURRRDRDDRDDRDFFFFFFFFFLLLDDDLLLULUULUULUBBBBBBBBB",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 22,
+          "proposed": "B'",
+          "move": "B'",
+          "move_number": 20,
+          "raw": "B'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 315.53,
+          "facelets_after": "UUUUUURRRDRRDRRDRRFFFFFFFFFLLLDDDDDDLLULLULLUBBBBBBBBB",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 23,
+          "proposed": "F",
+          "move": "F",
+          "move_number": 21,
+          "raw": "F",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 338.26,
+          "facelets_after": "UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB",
+          "solved_after": true,
+          "meta": {
+            "mock": true
+          }
+        }
+      ],
+      "metrics": {
+        "solved": true,
+        "moves": 21,
+        "avg_latency_ms": 249.58,
+        "total_time_ms": 5823.3,
+        "invalid_responses": 2,
+        "api_errors": 0,
+        "attempts": 23,
+        "optimality_gap": null
+      }
+    },
+    {
+      "key": "clef",
+      "name": "Cloudflare Clef",
+      "openrouter_id": "cloudflare/clef",
+      "provider": "Cloudflare",
+      "protocol": "decisions",
+      "mode": "mock",
+      "personality": "Quick but short-sighted: picks the move that fixes the most stickers right now, so it often stalls.",
+      "status": "failed",
+      "failure_reason": "Move limit reached: 30 valid moves applied and the cube is not solved",
+      "applied_moves": [
+        "U",
+        "B2",
+        "D2",
+        "F'",
+        "R",
+        "B2",
+        "R'",
+        "F2",
+        "L2",
+        "B",
+        "B'",
+        "B",
+        "B'",
+        "B",
+        "B'",
+        "B",
+        "B'",
+        "B",
+        "B'",
+        "B",
+        "B'",
+        "B",
+        "B'",
+        "B",
+        "B'",
+        "B",
+        "B'",
+        "B",
+        "B'",
+        "B"
+      ],
+      "start_facelets": "DBLRUDDDRFLFURRLBLRFUFFFBLDRUFFDULDUFDBRLLBRUULRUBBBBD",
+      "final_facelets": "LRUUUUFLURRRDRDLRRRFFBFLLFFDUUDDFLRDBBDULLDFBBBUBBLBDF",
+      "started_at": "2026-10-17T08:55:42+00:00",
+      "finished_at": "2026-10-17T08:55:45+00:00",
+      "total_time_ms": 3839.1,
+      "steps": [
+        {
+          "step": 1,
+          "proposed": "U",
+          "move": "U",
+          "move_number": 1,
+          "raw": "U",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 67.43,
+          "facelets_after": "DRDDUBRDLULRURRLBLFLFFFFBLDRUFFDULDURFURLLBRUFDBUBBBBD",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 2,
+          "proposed": "B2",
+          "move": "B2",
+          "move_number": 2,
+          "raw": "B2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 96.51,
+          "facelets_after": "UDLDUBRDLULBURRLBRFLFFFFBLDRUFFDUDRDLFURLLRRUDBBBBUBDF",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 3,
+          "proposed": "D2",
+          "move": "D2",
+          "move_number": 3,
+          "raw": "D2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 82.86,
+          "facelets_after": "UDLDUBRDLULBURRRRUFLFFFFBDFDRDUDFFURLFURLLLBRDBBBBUBLD",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 4,
+          "proposed": "F'",
+          "move": "F'",
+          "move_number": 4,
+          "raw": "F'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 88.6,
+          "facelets_after": "UDLDUBUURDLBRRRDRUFFFLFDFFBULRUDFFURLFLRLDLBRDBBBBUBLD",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 5,
+          "proposed": "R",
+          "move": "R",
+          "move_number": 5,
+          "raw": "R",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 62.03,
+          "facelets_after": "UDFDUDUUBDRDRRLURBFFRLFFFFRULBUDBFUDLFLRLDLBRRBBBBULLD",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 6,
+          "proposed": "B2",
+          "move": "B2",
+          "move_number": 6,
+          "raw": "B2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 60.25,
+          "facelets_after": "DUFDUDUUBDRLRRRURLFFRLFFFFRULBUDBFDUBFLLLDDBRDLLUBBBBR",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 7,
+          "proposed": "R'",
+          "move": "R'",
+          "move_number": 7,
+          "raw": "R'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 130.91,
+          "facelets_after": "DUBDUUUUDLRLRRRDRUFFFLFDFFBULRUDFFDRBFLLLDDBRULLBBBBBR",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 8,
+          "proposed": "F2",
+          "move": "F2",
+          "move_number": 8,
+          "raw": "F2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 85.96,
+          "facelets_after": "DUBDUURLURRLDRRLRUBFFDFLFFFDUUUDFFDRBFDLLRDBLULLBBBBBR",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 9,
+          "proposed": "L2",
+          "move": "L2",
+          "move_number": 9,
+          "raw": "L2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 141.37,
+          "facelets_after": "DUBUUUFLURRLDRRLRURFFBFLLFFDUUDDFRDRLBDRLLDFBULFBBDBBB",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 10,
+          "proposed": "B",
+          "move": "B",
+          "move_number": 10,
+          "raw": "B",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 170.81,
+          "facelets_after": "LRUUUUFLURRRDRDLRRRFFBFLLFFDUUDDFLRDBBDULLDFBBBUBBLBDF",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 11,
+          "proposed": "B'",
+          "move": "B'",
+          "move_number": 11,
+          "raw": "B'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 227.29,
+          "facelets_after": "DUBUUUFLURRLDRRLRURFFBFLLFFDUUDDFRDRLBDRLLDFBULFBBDBBB",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 12,
+          "proposed": "B",
+          "move": "B",
+          "move_number": 12,
+          "raw": "B",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 138.4,
+          "facelets_after": "LRUUUUFLURRRDRDLRRRFFBFLLFFDUUDDFLRDBBDULLDFBBBUBBLBDF",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 13,
+          "proposed": "B'",
+          "move": "B'",
+          "move_number": 13,
+          "raw": "B'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 141.72,
+          "facelets_after": "DUBUUUFLURRLDRRLRURFFBFLLFFDUUDDFRDRLBDRLLDFBULFBBDBBB",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 14,
+          "proposed": "B",
+          "move": "B",
+          "move_number": 14,
+          "raw": "B",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 132.13,
+          "facelets_after": "LRUUUUFLURRRDRDLRRRFFBFLLFFDUUDDFLRDBBDULLDFBBBUBBLBDF",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 15,
+          "proposed": "B'",
+          "move": "B'",
+          "move_number": 15,
+          "raw": "B'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 84.37,
+          "facelets_after": "DUBUUUFLURRLDRRLRURFFBFLLFFDUUDDFRDRLBDRLLDFBULFBBDBBB",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 16,
+          "proposed": "B",
+          "move": "B",
+          "move_number": 16,
+          "raw": "B",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 124.56,
+          "facelets_after": "LRUUUUFLURRRDRDLRRRFFBFLLFFDUUDDFLRDBBDULLDFBBBUBBLBDF",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 17,
+          "proposed": "B'",
+          "move": "B'",
+          "move_number": 17,
+          "raw": "B'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 154.48,
+          "facelets_after": "DUBUUUFLURRLDRRLRURFFBFLLFFDUUDDFRDRLBDRLLDFBULFBBDBBB",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 18,
+          "proposed": "B",
+          "move": "B",
+          "move_number": 18,
+          "raw": "B",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 186.32,
+          "facelets_after": "LRUUUUFLURRRDRDLRRRFFBFLLFFDUUDDFLRDBBDULLDFBBBUBBLBDF",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 19,
+          "proposed": "B'",
+          "move": "B'",
+          "move_number": 19,
+          "raw": "B'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 114.19,
+          "facelets_after": "DUBUUUFLURRLDRRLRURFFBFLLFFDUUDDFRDRLBDRLLDFBULFBBDBBB",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 20,
+          "proposed": "B",
+          "move": "B",
+          "move_number": 20,
+          "raw": "B",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 181.34,
+          "facelets_after": "LRUUUUFLURRRDRDLRRRFFBFLLFFDUUDDFLRDBBDULLDFBBBUBBLBDF",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 21,
+          "proposed": "B'",
+          "move": "B'",
+          "move_number": 21,
+          "raw": "B'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 112.91,
+          "facelets_after": "DUBUUUFLURRLDRRLRURFFBFLLFFDUUDDFRDRLBDRLLDFBULFBBDBBB",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 22,
+          "proposed": "B",
+          "move": "B",
+          "move_number": 22,
+          "raw": "B",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 118.1,
+          "facelets_after": "LRUUUUFLURRRDRDLRRRFFBFLLFFDUUDDFLRDBBDULLDFBBBUBBLBDF",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 23,
+          "proposed": "B'",
+          "move": "B'",
+          "move_number": 23,
+          "raw": "B'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 108.33,
+          "facelets_after": "DUBUUUFLURRLDRRLRURFFBFLLFFDUUDDFRDRLBDRLLDFBULFBBDBBB",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 24,
+          "proposed": "B",
+          "move": "B",
+          "move_number": 24,
+          "raw": "B",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 179.32,
+          "facelets_after": "LRUUUUFLURRRDRDLRRRFFBFLLFFDUUDDFLRDBBDULLDFBBBUBBLBDF",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 25,
+          "proposed": "B'",
+          "move": "B'",
+          "move_number": 25,
+          "raw": "B'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 162.25,
+          "facelets_after": "DUBUUUFLURRLDRRLRURFFBFLLFFDUUDDFRDRLBDRLLDFBULFBBDBBB",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 26,
+          "proposed": "B",
+          "move": "B",
+          "move_number": 26,
+          "raw": "B",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 152.08,
+          "facelets_after": "LRUUUUFLURRRDRDLRRRFFBFLLFFDUUDDFLRDBBDULLDFBBBUBBLBDF",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 27,
+          "proposed": "B'",
+          "move": "B'",
+          "move_number": 27,
+          "raw": "B'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 100.93,
+          "facelets_after": "DUBUUUFLURRLDRRLRURFFBFLLFFDUUDDFRDRLBDRLLDFBULFBBDBBB",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 28,
+          "proposed": "B",
+          "move": "B",
+          "move_number": 28,
+          "raw": "B",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 87.49,
+          "facelets_after": "LRUUUUFLURRRDRDLRRRFFBFLLFFDUUDDFLRDBBDULLDFBBBUBBLBDF",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 29,
+          "proposed": "B'",
+          "move": "B'",
+          "move_number": 29,
+          "raw": "B'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 135.15,
+          "facelets_after": "DUBUUUFLURRLDRRLRURFFBFLLFFDUUDDFRDRLBDRLLDFBULFBBDBBB",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 30,
+          "proposed": "B",
+          "move": "B",
+          "move_number": 30,
+          "raw": "B",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 114.29,
+          "facelets_after": "LRUUUUFLURRRDRDLRRRFFBFLLFFDUUDDFLRDBBDULLDFBBBUBBLBDF",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        }
+      ],
+      "metrics": {
+        "solved": false,
+        "moves": 30,
+        "avg_latency_ms": 124.75,
+        "total_time_ms": 3839.1,
+        "invalid_responses": 0,
+        "api_errors": 0,
+        "attempts": 30,
+        "optimality_gap": null
+      }
+    },
+    {
+      "key": "opus",
+      "name": "Claude Opus 5.5",
+      "openrouter_id": "anthropic/claude-opus-5.5",
+      "provider": "Anthropic",
+      "protocol": "chat",
+      "mode": "mock",
+      "personality": "Slow and careful; plays the shortest solution, rarely slips, occasionally hits a simulated API error.",
+      "status": "solved",
+      "failure_reason": null,
+      "applied_moves": [
+        "B2",
+        "L2",
+        "D'",
+        "F'",
+        "L2",
+        "U",
+        "U",
+        "R2",
+        "F2",
+        "R'",
+        "B'",
+        "F",
+        "L'",
+        "U2",
+        "R",
+        "D2",
+        "F",
+        "L'",
+        "B'",
+        "F"
+      ],
+      "start_facelets": "DBLRUDDDRFLFURRLBLRFUFFFBLDRUFFDULDUFDBRLLBRUULRUBBBBD",
+      "final_facelets": "UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB",
+      "started_at": "2026-10-17T08:55:42+00:00",
+      "finished_at": "2026-10-17T08:55:53+00:00",
+      "total_time_ms": 10948.5,
+      "steps": [
+        {
+          "step": 1,
+          "proposed": "B2",
+          "move": "B2",
+          "move_number": 1,
+          "raw": "B2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 546.46,
+          "facelets_after": "UDLRUDDDRFLBURRLBFRFUFFFBLDRUFFDULBDLDBRLLFRUDBBBBURLU",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 2,
+          "proposed": "L2",
+          "move": "L2",
+          "move_number": 2,
+          "raw": "L2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 761.34,
+          "facelets_after": "RDLFUDLDRFLBURRLBFUFUUFFBLDUUFRDUDBDURFLLRBDLDBBBBFRLR",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 3,
+          "proposed": "D'",
+          "move": "D'",
+          "move_number": 3,
+          "raw": "D'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 493.44,
+          "facelets_after": "RDLFUDLDRFLBURRRLRUFUUFFLBFFUDUDBURDURFLLRBLDDBBBBFBDL",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 4,
+          "proposed": "F'",
+          "move": "F'",
+          "move_number": 4,
+          "raw": "F'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 475.39,
+          "facelets_after": "RDLFUDFURDLBURRFLRUFFFFBUULFRDUDBURDURRLLDBLLDBBBBFBDL",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 5,
+          "proposed": "L2",
+          "move": "L2",
+          "move_number": 5,
+          "raw": "L2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 636.2,
+          "facelets_after": "FDLUUDUURDLBURRFLRLFFFFBBULRRDFDBFRDLLBDLLRRUDBUBBFBDU",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 6,
+          "proposed": "U",
+          "move": "U",
+          "move_number": 6,
+          "raw": "U",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 401.56,
+          "facelets_after": "UUFUUDRDLDBUURRFLRDLBFFBBULRRDFDBFRDLFFDLLRRULLBBBFBDU",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 7,
+          "proposed": "U",
+          "move": "U",
+          "move_number": 7,
+          "raw": "U",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 327.73,
+          "facelets_after": "RUUDUULDFLLBURRFLRDBUFFBBULRRDFDBFRDDLBDLLRRULFFBBFBDU",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 8,
+          "proposed": "R2",
+          "move": "R2",
+          "move_number": 8,
+          "raw": "R2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 612.66,
+          "facelets_after": "RUDDUBLDDRLFRRUBLLDBBFFBBULRRUFDUFRFDLBDLLRRULFFBBFUDU",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 9,
+          "proposed": "F2",
+          "move": "F2",
+          "move_number": 9,
+          "raw": "F2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 419.22,
+          "facelets_after": "RUDDUBURRULFLRUBLLLUBBFFBBDDDLFDUFRFDLBDLRRRRLFFBBFUDU",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 10,
+          "proposed": "R'",
+          "move": "R'",
+          "move_number": 10,
+          "raw": "R'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 625.25,
+          "facelets_after": "RUUDUBURLFULLRLULBLUDBFBBBRDDBFDFFRDDLBDLRRRRFFFUBFLDU",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 11,
+          "proposed": null,
+          "move": null,
+          "move_number": null,
+          "raw": "",
+          "responded": false,
+          "valid": false,
+          "applied": false,
+          "error_kind": "server_error",
+          "error": "Simulated transient API error (mock)",
+          "latency_ms": 414.18,
+          "facelets_after": "RUUDUBURLFULLRLULBLUDBFBBBRDDBFDFFRDDLBDLRRRRFFFUBFLDU",
+          "solved_after": false,
+          "meta": {}
+        },
+        {
+          "step": 12,
+          "proposed": "B'",
+          "move": "B'",
+          "move_number": 11,
+          "raw": "B'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 405.1,
+          "facelets_after": "RDDDUBURLFURLRUULULUDBFBBBRDDBFDFBLLFLBRLRDRRFFUFBDFUL",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 13,
+          "proposed": "F",
+          "move": "F",
+          "move_number": 12,
+          "raw": "F",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 413.56,
+          "facelets_after": "RDDDUBRRBUURRRULLUBBLBFURBDULFFDFBLLFLDRLDDRBFFUFBDFUL",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 14,
+          "proposed": "L'",
+          "move": "L'",
+          "move_number": 13,
+          "raw": "L'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 547.84,
+          "facelets_after": "BDDBUBRRBUURRRULLUUBLFFUBBDLLFDDFULLDDBLLRFRDFFRFBDFUR",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 15,
+          "proposed": "U2",
+          "move": "U2",
+          "move_number": 14,
+          "raw": "U2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 563.3,
+          "facelets_after": "BRRBUBDDBDDBRRULLUFFRFFUBBDLLFDDFULLUURLLRFRDUBLFBDFUR",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 16,
+          "proposed": "R",
+          "move": "R",
+          "move_number": 15,
+          "raw": "R",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 545.4,
+          "facelets_after": "BRRBUUDDDLRDLRDUUBFFFFFFBBLLLFDDFULUUURLLRFRDBBLBBDRUR",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 17,
+          "proposed": "D2",
+          "move": "D2",
+          "move_number": 16,
+          "raw": "D2",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 299.53,
+          "facelets_after": "BRRBUUDDDLRDLRDFRDFFFFFFRURULUFDDFLLUURLLRUUBBBLBBDBBL",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 18,
+          "proposed": "F",
+          "move": "F",
+          "move_number": 17,
+          "raw": "F",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 385.27,
+          "facelets_after": "BRRBUUBRRDRDDRDDRDRFFUFFRFFFLLFDDFLLUUULLLUUUBBLBBDBBL",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 19,
+          "proposed": "L'",
+          "move": "L'",
+          "move_number": 18,
+          "raw": "L'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 482.41,
+          "facelets_after": "RRRUUURRRDRDDRDDRDFFFFFFFFFLLLDDDLLLULUULUULUBBBBBBBBB",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 20,
+          "proposed": "B'",
+          "move": "B'",
+          "move_number": 19,
+          "raw": "B'",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 267.93,
+          "facelets_after": "UUUUUURRRDRRDRRDRRFFFFFFFFFLLLDDDDDDLLULLULLUBBBBBBBBB",
+          "solved_after": false,
+          "meta": {
+            "mock": true
+          }
+        },
+        {
+          "step": 21,
+          "proposed": "F",
+          "move": "F",
+          "move_number": 20,
+          "raw": "F",
+          "responded": true,
+          "valid": true,
+          "applied": true,
+          "error_kind": null,
+          "error": null,
+          "latency_ms": 261.31,
+          "facelets_after": "UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB",
+          "solved_after": true,
+          "meta": {
+            "mock": true
+          }
+        }
+      ],
+      "metrics": {
+        "solved": true,
+        "moves": 20,
+        "avg_latency_ms": 473.55,
+        "total_time_ms": 10948.5,
+        "invalid_responses": 0,
+        "api_errors": 1,
+        "attempts": 21,
+        "optimality_gap": null
+      }
+    }
+  ]
+}

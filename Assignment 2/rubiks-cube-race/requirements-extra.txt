@@ -1,0 +1,4 @@
+# OPTIONAL. The app and tests work without this.
+# kociemba is a second, independent Rubik's Cube library (C extension, may need a C compiler on Windows).
+# If installed it is used to (a) cross-check the cube engine in tests and (b) give the mock competitors shorter solutions.
+kociemba==1.2.1
